@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css"
 import Head from 'next/head'
 import Main from '@/src/Main'
 import Image from 'next/image'
-import CircleLink from '@/src/small/circleLink'
+import CircleLink from '@/src/small/CircleLink'
 import PaddingContainer from '@/src/small/PaddingContainer'
 import SubTitle from '@/src/small/SubTitle'
 import Title from '@/src/small/Title'
