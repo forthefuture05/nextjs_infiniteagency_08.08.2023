@@ -1,0 +1,113 @@
+.navigation {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 50px;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.place {
+    width: 100%;
+    height: 75px;
+}
+
+.navigation .image {
+    position: relative;
+}
+
+.navigation .image a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.navigation .image img {
+    width: 160px;
+    height: auto;
+}
+
+.navigation .links,
+.navigation .menu {
+    display: flex;
+    align-items: center;
+}
+
+.navigation .menu {
+    cursor: pointer;
+}
+
+.navigation ul {
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
+
+.navigation .links ul li {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.navigation .links ul li:hover ul {
+    display: flex;
+}
+
+.navigation .links ul li:last-child {
+    margin-right: 0;
+}
+
+.navigation .links ul li a {
+    color: #121212;
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.5px;
+    /* 150% */
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navigation ul ul {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    display: none;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.navigation ul ul div {
+    background-color: #fff;
+    border-top: 1px solid #555;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.navigation ul ul li {
+    display: inline;
+    margin-right: 0 !important;
+}
+
+.navigation ul ul li a {
+    font-weight: 300;
+}
+
+@media screen and (max-width: 1081px) {
+    .navigation .links {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .navigation {
+        padding: 12px 20px;
+    }
+}

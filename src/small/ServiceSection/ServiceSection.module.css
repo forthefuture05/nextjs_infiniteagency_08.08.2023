@@ -1,0 +1,55 @@
+.serviceSection {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.serviceSection .innerCtn {
+    width: 74%;
+}
+
+.serviceSection .image {
+    width: 100%;
+    aspect-ratio: 960/300;
+    background-position: center;
+    background-size: cover;
+    border-bottom-right-radius: 300px;
+    margin-bottom: 40px;
+}
+
+.serviceSection h2 {
+    color: #121212;
+    font-family: "Kanit", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 43.5px;
+    margin: 0;
+    margin-bottom: 40px;
+    /* 120.833% */
+}
+
+.serviceSection .twoCols {
+    display: grid;
+    grid-template-columns: [first] 47% [second] 47%;
+    grid-gap: 0 6%;
+}
+
+.serviceSection .twoCols p {
+    margin-bottom: 25px;
+}
+
+.serviceSection .link {
+    margin-top: 35px;
+}
+
+@media screen and (max-width: 900px) {
+    .serviceSection .innerCtn {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .serviceSection .text .twoCols {
+        display: block;
+    }
+}

@@ -1,0 +1,178 @@
+.circleLink {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #d7d7d7;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.circleLink span {
+    color: #121212;
+    font-family: "Kanit", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.5px;
+    max-width: 90px;
+    margin-right: 10px;
+    padding-bottom: 0 !important;
+    /* 146.875% */
+}
+
+.circleLink.white span {
+    color: #fff;
+}
+
+.circleLink .innerCtn {
+    display: flex;
+    justify-content: space-between;
+    max-width: 66%;
+}
+
+.circleLink .icon {
+    displaY: flex;
+    align-items: center;
+}
+
+.circleLink a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border-radius: 100px;
+    z-index: 4;
+}
+
+.circleLink .white {
+    display: none;
+}
+
+.circleLink.white .white {
+    display: block;
+}
+
+.circleLink.white .black {
+    display: none;
+}
+
+/* Padding Container */
+
+.paddingCtn {
+    width: 100%;
+    padding: 150px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.paddingCtn.noTop {
+    padding-top: 0;
+}
+
+.paddingCtn .innerCtn {
+    width: 70%;
+}
+
+/* Typography */
+
+.subtitle {
+    color: #555;
+    font-family: "Kanit", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 141.667%;
+    /*  */
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.bubble {
+    margin-bottom: 15px !important;
+    color: #121212;
+    font-family: "Kanit", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.5px;
+    padding: 2px 13px;
+    border-radius: 100px;
+    border: 1px solid #6B6B6B;
+    display: inline-flex;
+    /* 146.875% */
+}
+
+.title {
+    width: 100%;
+    color: #121212;
+    font-family: "Kanit", sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 109.167%;
+    /* 109.167% */
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.title.noCap {
+    text-transform: none !important;
+}
+
+.title.white,
+.subtitle.white {
+    color: #fff;
+}
+
+.p {
+    color: #999;
+    font-family: "Kanit", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.5px;
+    margin: 0;
+    /* 141.667% */
+}
+
+@media screen and (max-width: 1550px) {
+    .paddingCtn {
+        padding: 120px 0;
+    }
+
+    .paddingCtn .innerCtn {
+        width: 76%;
+    }
+
+    .circleLink {
+        width: 130px;
+        height: 130px;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (Max-width: 1200px) {
+    .paddingCtn .innerCtn   {
+        width: 100%;
+    }
+    .paddingCtn {
+        padding: 100px 50px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .paddingCtn {
+        padding: 80px 20px;
+    }
+}

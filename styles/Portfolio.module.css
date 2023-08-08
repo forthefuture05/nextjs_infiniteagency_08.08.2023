@@ -1,0 +1,110 @@
+.portfolioOuter {
+    padding-top: 100px !important;
+}
+
+.portfolio {
+    display: grid;
+    grid-template-columns: [first] 35% [second] auto;
+    grid-gap: 0 4%;
+}
+
+.portfolio .left span.sub {
+    color: #555;
+    font-family: "Kanit", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30.5px;
+    /* 127.083% */
+}
+
+.portfolio .left h2 {
+    color: #121212;
+    font-family: "Kanit", sans-serif;
+    font-size: 7vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 91.667%;
+    margin-top: 4px;
+    margin-bottom: 25px;
+    /* 91.667% */
+}
+
+.portfolio .left p {
+    padding-left: 100px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.portfolio .left p::before {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    top: 10%;
+    left: 0;
+    background-color: #121212;
+}
+
+.portfolio .project {
+    margin-bottom: 80px;
+}
+
+.portfolio .project .bottom h3 {
+    color: #121212;
+    font-family: "Kanit", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23.5px;
+    margin: 0;
+    margin-bottom: 5px;
+    /* 117.5% */
+}
+
+.portfolio .project .bottom span {
+    color: #555;
+    font-family: "Kanit", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18.5px;
+    margin: 0;
+    /* 132.143% */
+}
+
+.portfolio .project .image {
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: top;
+    aspect-ratio: 560/700;
+}
+
+
+@media screen and (max-width: 900px) {
+    .portfolio .left p {
+        padding: 0;
+        width: 100%;
+    }
+
+    .portfolio .left p::before {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .portfolio {
+        grid-template-columns: [f] 100%;
+        grid-gap: 50px 0;
+    }
+
+    .portfolio .left h2 {
+        font-size: 12vw;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .portfolio .left h2 {
+        font-size: 50px;
+    }
+}

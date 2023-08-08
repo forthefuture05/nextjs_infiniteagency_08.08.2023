@@ -1,0 +1,259 @@
+.blogOuter {
+    padding-top: 100px !important;
+}
+
+.blog .top {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 120px;
+}
+
+.blog .top h1 {
+    color: #121212;
+    font-family: "Kanit", sans-serif;
+    font-size: 7vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    margin: 0;
+}
+
+.blog .top .textBox {
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.blog .posts {
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    grid-gap: 0 5%;
+}
+
+.blog .posts .post .image {
+    aspect-ratio: 390/450;
+    width: 100%;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.blog .posts .post .image a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.blog .post span {
+    color: #555;
+    text-align: left;
+    font-family: "Kanit", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.5px;
+    display: block;
+    margin: 0 auto;
+    /* 150% */
+}
+
+.blog .post h3 {
+    width: 100%;
+    color: #121212;
+    font-family: "Kanit", sans-serif;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32.5px;
+    /* 125% */
+    margin: 0;
+    margin-top: 5px;
+    /* 125% */
+}
+
+.blog .post .link {
+    width: 100%;
+    position: relative;
+    display: flex;
+    margin-top: 22px;
+    padding: 10px 0;
+    border-top: 1px solid #bbb;
+    color: #555;
+    font-family: "Kanit", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.5px;
+    /* 146.875% */
+}
+
+.blog .post .link:hover {
+    text-decoration: underline;
+}
+
+.blog .post .link a {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.blog .post .link img {
+    display: block;
+    margin: auto 10px;
+}
+
+/* BigPost - Single Post Page */
+
+.bigPostOuter {
+    padding-top: 100px !important;
+}
+
+.bigPost .inside {
+    padding: 0 15%;
+}
+
+.bigPost .info1 {
+    display: flex;
+}
+
+.bigPost .info1 span.cat {
+    color: #121212;
+    font-family: "Kanit", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.5px;
+    /* 159.375% */
+}
+
+.bigPost .info1 div {
+    width: 4px;
+    height: 4px;
+    background-color: #bababa;
+    display: block;
+    margin: auto 10px;
+}
+
+.bigPost .info1 span.date {
+    color: #555;
+    font-family: "Kanit", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.5px;
+    /* 159.375% */
+}
+
+.bigPost h1 {
+    color: #121212;
+    font-family: "Kanit", sans-serif;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    margin: 0;
+    margin-top: 13px;
+    margin-bottom: 40px;
+    /* 100% */
+}
+
+.bigPost .info2 {
+    display: flex;
+}
+
+.bigPost .info2 .box:last-child {
+    margin-left: 60px;
+}
+
+.bigPost .info2 .box div {
+    color: #8E8E8E;
+    font-family: "Kanit", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.5px;
+    margin-bottom: 0;
+    /* 160.714% */
+}
+
+.bigPost .info2 .box span {
+    color: #555;
+    font-family: "Kanit", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24.5px;
+    /* 153.125% */
+}
+
+.bigPost .image {
+    aspect-ratio: 1200 / 700;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin: 50px 0;
+}
+
+.relatedOuter {
+    padding-top: 0 !important;
+}
+.relatedOuter .title {
+    text-transform: none !important;
+}
+
+@media screen and (max-width: 1150px) {
+    .bigPost h1 {
+        font-size: 7vw;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .blog .top {
+        display: block;
+        width: 100%;
+    }
+
+    .blog .top h1 {
+        margin-bottom: 30px;
+    }
+
+    .blog .top .textBox {
+        max-width: 100% !important;
+        padding: 0;
+    }
+
+    .blog .posts {
+        grid-template-columns: repeat(auto-fill, minmax(47%, 1fr));
+        grid-gap: 40px 6%;
+    }
+
+
+
+    .bigPost .inside {
+        padding: 0 25px;
+    }
+
+    .bigPost .inside p {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .blog .posts {
+        grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+        grid-gap: 40px;
+    }
+
+    .blog .posts .post .image {
+        aspect-ratio: 3 / 2;
+    }
+
+    .bigPost h1 {
+        font-size: 35px;
+    }
+}
