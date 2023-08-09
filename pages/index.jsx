@@ -17,8 +17,8 @@ export default function home(props) {
 
     return <>
         <Head>
-            <title>Online Marketing Agentur aus München | Infinite Agency</title>
-            <meta name="description" content="" />
+            <title>Moderne Online Marketing Agentur aus München | Infinite Agency</title>
+            <meta name="description" content="Professionelles Webdesign, SEO & SMM für digitales Wachstum. Kreative Lösungen, die beeindrucken. Entdecken Sie unsere Agentur aus München." />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="keywords" content="Hypnose, Hypnose München, Hypnosetherapie, Hypnosetherapie München, Reiki"></meta>
             <link rel="icon" href="/images/infiniteLogo.png" />
