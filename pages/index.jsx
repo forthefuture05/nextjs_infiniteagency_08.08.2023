@@ -60,7 +60,7 @@ export default function home(props) {
                 <div className={styles.content}>
                     <div className={styles.innerCtn}>
                         <SubTitle white>Wer wir sind</SubTitle>
-                        <Title className={styles.title} white>Wir käpfen für <br /> Ihren digitalen <br /> Erfolg</Title>
+                        <Title className={styles.title} white>Wir kämpfen für <br /> Ihren digitalen <br /> Erfolg</Title>
 
                         <div className={styles.textBox}>
                             <div className={styles.innerBox}>

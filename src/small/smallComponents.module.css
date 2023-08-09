@@ -134,7 +134,7 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
-    line-height: 25.5px;
+    line-height: 141.667%;
     margin: 0;
     /* 141.667% */
 }
@@ -174,5 +174,9 @@
 @media screen and (max-width: 700px) {
     .paddingCtn {
         padding: 80px 20px;
+    }
+
+    .title {
+        font-size: 35px;
     }
 }

@@ -23,6 +23,11 @@
     /* 123.611% */
 }
 
+.abstand {
+    height: 50px;
+    width: 100%;
+}
+
 @media screen and (max-width: 600px) {
     .inhalt h2 {
         word-wrap: break-word;
