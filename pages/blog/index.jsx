@@ -13,8 +13,8 @@ export default function blog(props) {
 
     return <>
         <Head>
-            <title>Online Marketing Agentur aus München | Infinite Agency</title>
-            <meta name="description" content="" />
+            <title>Unser Blog über Online Marketing | Infinite Agency</title>
+            <meta name="description" content="Entdecken Sie die Welt des Online-Marketings mit Infinite Agency. Wertvolle Einblicke, Tipps und Trends für Ihren digitalen Erfolg. Jetzt lesen!" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="keywords" content="Hypnose, Hypnose München, Hypnosetherapie, Hypnosetherapie München, Reiki"></meta>
             <link rel="icon" href="/images/infiniteLogo.png" />

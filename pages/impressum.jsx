@@ -8,7 +8,7 @@ import React from 'react'
 export default function impressum() {
     return <>
         <Head>
-            <title>Online Marketing Agentur aus München | Infinite Agency</title>
+            <title>Impressum | Infinite Agency</title>
             <meta name="description" content="" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="keywords" content="Hypnose, Hypnose München, Hypnosetherapie, Hypnosetherapie München, Reiki"></meta>

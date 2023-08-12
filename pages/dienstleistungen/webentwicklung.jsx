@@ -11,8 +11,8 @@ export default function webentwicklung() {
 
     return <>
         <Head>
-            <title>Online Marketing Agentur aus München | Infinite Agency</title>
-            <meta name="description" content="" />
+            <title>Professionelle Webentwicklung aus München | Infinite Agency</title>
+            <meta name="description" content="Infinite Agency - Ihrer Experten für Webentwicklung - Wir entwickeln innovative Websites, die Ihr Business vorantreiben. Erfahren Sie mehr!" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="keywords" content="Hypnose, Hypnose München, Hypnosetherapie, Hypnosetherapie München, Reiki"></meta>
             <link rel="icon" href="/images/infiniteLogo.png" />
