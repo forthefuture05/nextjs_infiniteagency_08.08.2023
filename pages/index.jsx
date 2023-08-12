@@ -64,7 +64,7 @@ export default function home(props) {
 
                         <div className={styles.textBox}>
                             <div className={styles.innerBox}>
-                                <P>Wir sind ein Team von leidenschaftlichen digitalen Experten, das sich zum Ziel gesetzt hat, die Online-Präsenz Ihres Unternehmens zu stärken! Mit jahrelanger Erfahrung im Online-Marketing entwickeln wir maßgeschneiderte und innovative Lösungen für Ihren Online-Erfolg. Gemeinsam navigieren wir Ihr Unternehmen erfolgreich durch die digitale Revolution!</P>
+                                <P>Wir sind ein Team von leidenschaftlichen digitalen Experten, das sich zum Ziel gesetzt hat, die Online-Präsenz Ihres Unternehmens zu stärken! Mit jahrelanger Erfahrung im Online-Marketing entwickeln wir maßgeschneiderte und innovative Lösungen für Ihren Online-Erfolg. Gemeinsam navigieren wir Ihr Unternehmen erfolgreich in die digitale Zukunft!</P>
 
                                 <div className={styles.link}>
                                     <CircleLink href="/kontakt" white>Kontakt</CircleLink>
@@ -272,7 +272,7 @@ export default function home(props) {
 
                             <ul className={styles.contactInfo}>
                                 <li>+49 174 7865074</li>
-                                <li>hallo@infiniteagency.de</li>
+                                <li>infiniteagencyde@gmail.com</li>
                             </ul>
                         </div>
 
@@ -280,9 +280,9 @@ export default function home(props) {
                             <span>Follow</span>
 
                             <ul className={styles.social}>
-                                <li><Link href="https://www.facebook.com/profile.php?id=100092458055231">Facebook</Link></li>
-                                <li><Link href="https://www.instagram.com/infiniteagencyde/">Instagram</Link></li>
-                                <li><Link href="https://www.linkedin.com/in/patrik-sandu-34619b274/">LinkedIn</Link></li>
+                                <li><Link href="https://www.facebook.com/profile.php?id=100092458055231" target='_blank'>Facebook</Link></li>
+                                <li><Link href="https://www.instagram.com/infiniteagencyde/" target='_blank'>Instagram</Link></li>
+                                <li><Link href="https://www.linkedin.com/in/patrik-sandu-34619b274/" target='_blank'>LinkedIn</Link></li>
                             </ul>
                         </div>
                     </div>
