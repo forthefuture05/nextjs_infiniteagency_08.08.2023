@@ -34,7 +34,7 @@ export default function kontakt() {
 
                         <ul className={styles.contactInfo}>
                             <li>+49 174 7865074</li>
-                            <li>hallo@infiniteagency.de</li>
+                            <li>infiniteagencyde@gmail.com</li>
                             <li>Josef-Schlichtstr. 22, <br />
                                 81245 München</li>
                         </ul>

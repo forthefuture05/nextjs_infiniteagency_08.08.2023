@@ -272,7 +272,7 @@ export default function home(props) {
 
                             <ul className={styles.contactInfo}>
                                 <li>+49 174 7865074</li>
-                                <li>hallo@infiniteagency.de</li>
+                                <li>infiniteagencyde@gmail.com</li>
                             </ul>
                         </div>
 
