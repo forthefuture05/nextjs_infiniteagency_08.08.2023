@@ -16,6 +16,8 @@ export default function App({ Component, pageProps }) {
       <meta property="og:url" content="https://infiniteagency.de" />
       <meta property="og:site_name" content="Infinite Agency" />
 
+      {/* Infinite Agency */}
+
       <script strategy="lazyOnload" src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
 
       <script strategy="lazyOnload">
