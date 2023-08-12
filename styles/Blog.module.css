@@ -34,6 +34,8 @@
 
 .blog .posts .post .image {
     aspect-ratio: 390/450;
+    background-position: center;
+    background-size: cover;
     width: 100%;
     margin-bottom: 25px;
     position: relative;
@@ -255,5 +257,9 @@
 
     .bigPost h1 {
         font-size: 35px;
+    }
+
+    .bigPost .inside {
+        padding: 0 5px;
     }
 }
