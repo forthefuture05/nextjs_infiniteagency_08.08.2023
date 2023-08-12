@@ -280,9 +280,9 @@ export default function home(props) {
                             <span>Follow</span>
 
                             <ul className={styles.social}>
-                                <li><Link href="https://www.facebook.com/profile.php?id=100092458055231">Facebook</Link></li>
-                                <li><Link href="https://www.instagram.com/infiniteagencyde/">Instagram</Link></li>
-                                <li><Link href="https://www.linkedin.com/in/patrik-sandu-34619b274/">LinkedIn</Link></li>
+                                <li><Link href="https://www.facebook.com/profile.php?id=100092458055231" target='_blank'>Facebook</Link></li>
+                                <li><Link href="https://www.instagram.com/infiniteagencyde/" target='_blank'>Instagram</Link></li>
+                                <li><Link href="https://www.linkedin.com/in/patrik-sandu-34619b274/" target='_blank'>LinkedIn</Link></li>
                             </ul>
                         </div>
                     </div>
