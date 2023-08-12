@@ -16,8 +16,8 @@ export default function webdesign() {
 
     return <>
         <Head>
-            <title>Online Marketing Agentur aus München | Infinite Agency</title>
-            <meta name="description" content="" />
+            <title>Erstklassige Webdesign Agentur aus München | Infinite Agency</title>
+            <meta name="description" content="Infinite Agency formt digitale Visionen. Kreatives Webdesign, nahtlose Nutzererfahrung. Gemeinsam gestalten wir Ihre Online-Präsenz." />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="keywords" content="Hypnose, Hypnose München, Hypnosetherapie, Hypnosetherapie München, Reiki"></meta>
             <link rel="icon" href="/images/infiniteLogo.png" />

@@ -13,8 +13,8 @@ export default function seo() {
 
     return <>
         <Head>
-            <title>Online Marketing Agentur aus München | Infinite Agency</title>
-            <meta name="description" content="" />
+            <title>SEO Agentur aus München | Infinite Agency</title>
+            <meta name="description" content="Steigern Sie Ihre Online-Sichtbarkeit mit Infinite Agency. Wir bieten erstklassige SEO-Lösungen für Ihren Erfolg im Web." />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="keywords" content="Hypnose, Hypnose München, Hypnosetherapie, Hypnosetherapie München, Reiki"></meta>
             <link rel="icon" href="/images/infiniteLogo.png" />

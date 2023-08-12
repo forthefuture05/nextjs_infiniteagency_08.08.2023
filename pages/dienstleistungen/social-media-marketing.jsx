@@ -13,8 +13,8 @@ export default function smm() {
 
     return <>
         <Head>
-            <title>Online Marketing Agentur aus München | Infinite Agency</title>
-            <meta name="description" content="" />
+            <title>Social Media Marketing aus München | Infinite Agency</title>
+            <meta name="description" content="Steigern Sie Ihren Online-Erfolg mit Infinite Agency – Ihrer Social Media Marketing Experten. Wir bringen Ihre Marke zum Strahlen. Erfahren Sie mehr!" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <meta name="keywords" content="Hypnose, Hypnose München, Hypnosetherapie, Hypnosetherapie München, Reiki"></meta>
             <link rel="icon" href="/images/infiniteLogo.png" />
