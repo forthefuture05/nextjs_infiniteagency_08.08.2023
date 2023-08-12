@@ -111,8 +111,8 @@ export default function services() {
             <title>Unsere Dienstleistungen | Infinite Agency</title>
             <meta name="description" content="Steigern Sie Ihre Online-Präsenz mit Infinite Agency. Experten für Webdesign, Entwicklung, SEO und SMM. Wir verwandeln Ideen in digitale Erfolge." />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <meta name="keywords" content="Hypnose, Hypnose München, Hypnosetherapie, Hypnosetherapie München, Reiki"></meta>
-            <link rel="icon" href="/images/infiniteLogo.png" />
+            
+            
         </Head>
 
         <Main>
