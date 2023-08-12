@@ -36,7 +36,7 @@ const EditorJsTransformer = ({ inhalt }) => {
                 if (e.type === "list" && e.data.style === "unordered") {
                     return <ul key={e.id}>
                         {e.data.items.map(item => {
-                            return <li key={item}>{item}</li>
+                            return <li key={item} dangerouslySetInnerHTML={{ __html: item }}></li>
                         })}
                     </ul>
                 }
@@ -44,7 +44,7 @@ const EditorJsTransformer = ({ inhalt }) => {
                 if (e.type === "list" && e.data.style === "ordered") {
                     return <ol key={e.id}>
                         {e.data.items.map(item => {
-                            return <li key={item}>{item}</li>
+                            return <li key={item} dangerouslySetInnerHTML={{ __html: item }}></li>
                         })}
                     </ol>
                 }
