@@ -20,8 +20,8 @@ export default function home(props) {
             <title>Moderne Online Marketing Agentur aus München | Infinite Agency</title>
             <meta name="description" content="Professionelles Webdesign, SEO & SMM für digitales Wachstum. Kreative Lösungen, die beeindrucken. Entdecken Sie unsere Agentur aus München." />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <meta name="keywords" content="Hypnose, Hypnose München, Hypnosetherapie, Hypnosetherapie München, Reiki"></meta>
-            <link rel="icon" href="/images/infiniteLogo.png" />
+
+
         </Head>
 
         <Main>
@@ -280,11 +280,9 @@ export default function home(props) {
                             <span>Follow</span>
 
                             <ul className={styles.social}>
-                                <li><Link href="#">Instagram</Link></li>
-                                <li><Link href="#">Facebook</Link></li>
-                                <li><Link href="#">LinkedIn</Link></li>
-                                <li><Link href="#">Pinterest</Link></li>
-                                <li><Link href="#">Dribble</Link></li>
+                                <li><Link href="https://www.facebook.com/profile.php?id=100092458055231">Facebook</Link></li>
+                                <li><Link href="https://www.instagram.com/infiniteagencyde/">Instagram</Link></li>
+                                <li><Link href="https://www.linkedin.com/in/patrik-sandu-34619b274/">LinkedIn</Link></li>
                             </ul>
                         </div>
                     </div>

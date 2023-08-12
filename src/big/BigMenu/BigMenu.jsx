@@ -15,11 +15,9 @@ const BigMenu = props => {
                     <h3>Folgen Sie uns!</h3>
 
                     <ul>
-                        <li><Link href="#">Instagram</Link></li>
-                        <li><Link href="#">Facebook</Link></li>
-                        <li><Link href="#">LinkedIn</Link></li>
-                        <li><Link href="#">Pinterest</Link></li>
-                        <li><Link href="#">Dribble</Link></li>
+                    <li><Link href="https://www.facebook.com/profile.php?id=100092458055231">Facebook</Link></li>
+                        <li><Link href="https://www.instagram.com/infiniteagencyde/">Instagram</Link></li>
+                        <li><Link href="https://www.linkedin.com/in/patrik-sandu-34619b274/">LinkedIn</Link></li>
                     </ul>
                 </div>
 

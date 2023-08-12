@@ -17,8 +17,8 @@ export default function portfolio(props) {
             <title>Portfolio | Infinite Agency</title>
             <meta name="description" content="" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            <meta name="keywords" content="Hypnose, Hypnose München, Hypnosetherapie, Hypnosetherapie München, Reiki"></meta>
-            <link rel="icon" href="/images/infiniteLogo.png" />
+            
+            
         </Head>
 
         <Main>
