@@ -64,7 +64,7 @@ export default function home(props) {
 
                         <div className={styles.textBox}>
                             <div className={styles.innerBox}>
-                                <P>Wir sind ein Team von leidenschaftlichen digitalen Experten, das sich zum Ziel gesetzt hat, die Online-Präsenz Ihres Unternehmens zu stärken! Mit jahrelanger Erfahrung im Online-Marketing entwickeln wir maßgeschneiderte und innovative Lösungen für Ihren Online-Erfolg. Gemeinsam navigieren wir Ihr Unternehmen erfolgreich durch die digitale Revolution!</P>
+                                <P>Wir sind ein Team von leidenschaftlichen digitalen Experten, das sich zum Ziel gesetzt hat, die Online-Präsenz Ihres Unternehmens zu stärken! Mit jahrelanger Erfahrung im Online-Marketing entwickeln wir maßgeschneiderte und innovative Lösungen für Ihren Online-Erfolg. Gemeinsam navigieren wir Ihr Unternehmen erfolgreich in die digitale Zukunft!</P>
 
                                 <div className={styles.link}>
                                     <CircleLink href="/kontakt" white>Kontakt</CircleLink>
