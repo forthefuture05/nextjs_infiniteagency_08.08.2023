@@ -46,7 +46,7 @@ const BigMenu = props => {
                     <h3>Wir sind nur eine Nachricht entfernt!</h3>
                     <ul className={styles.contactInfo}>
                         <li>+49 174 7865074</li>
-                        <li>infiniteagencyde@gmail.com</li>
+                        <li>kontakt@infiniteagency.de</li>
                         <li>Josef-Schlichtstr. 22, <br />
                             81245 München</li>
                     </ul>
