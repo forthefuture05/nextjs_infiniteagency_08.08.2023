@@ -342,6 +342,25 @@
     top: 0;
 }
 
+.portfolio .project .top {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.portfolio .project .top a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio .project .top .arrow {
+    display: flex;
+    align-items: center;
+}
+
 .portfolio .project .top h3 {
     color: #121212;
     font-family: "Kanit", sans-serif;

@@ -21,7 +21,7 @@
 .portfolio .left h2 {
     color: #121212;
     font-family: "Kanit", sans-serif;
-    font-size: 7vw;
+    font-size: 100px;
     font-style: normal;
     font-weight: 500;
     line-height: 91.667%;
@@ -48,6 +48,26 @@
 
 .portfolio .project {
     margin-bottom: 80px;
+}
+
+.portfolio .project .bottom {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    width: 100%;
+}
+
+.portfolio .project .bottom a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio .project .bottom .arrow {
+    display: fleX;
+    align-items: center;
 }
 
 .portfolio .project .bottom h3 {
@@ -78,10 +98,203 @@
     background-size: cover;
     background-position: top;
     aspect-ratio: 560/700;
+    position: relative;
 }
 
+.portfolio .project .image a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Project Page */
+
+.sProject .topOuter {
+    padding: 40px !important;
+}
+
+.sProject .top {
+    display: grid;
+    grid-template-columns: [first] auto [second] 300px;
+    grid-gap: 0 10%;
+}
+
+.sProject .top h1 {
+    color: #121212;
+    font-family: "Kanit", sans-serif;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+    /* 100% */
+    max-width: 800px;
+    margin: 0;
+}
+
+.sProject .top .details {
+    display: flex;
+    align-items: center;
+}
+
+.sProject .top .details .innerCtn {
+    display: grid;
+    grid-template-columns: [first] 45% [second] 45%;
+    grid-gap: 20px 10%;
+}
+
+.sProject .top .details span {
+    color: #8E8E8E;
+    font-family: "Kanit", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160.714%;
+    /* 160.714% */
+}
+
+.sProject .top .details p {
+    color: #555;
+    font-family: "Kanit", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110.125%;
+    margin: 0;
+    margin-top: 4px;
+    /* 153.125% */
+}
+
+.sProject .mockup {
+    display: flex;
+    justify-content: center;
+}
+
+.sProject .mockup img {
+    width: 70%;
+    height: auto;
+}
+
+.sProject .screenshot .center {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.sProject .screenshot .link {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.sProject .screenshot .screen {
+    width: 60%;
+    height: auto;
+}
+
+.sProject .services .title {
+    text-align: center;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.sProject .services .ctn{
+    display: flex;
+    justify-content: center;
+}
+
+.sProject .services .ctn .innerCtn {
+    /* display: flex; */
+    text-align: center;
+}
+
+.sProject .services .ctn .innerCtn .service {
+    display: inline-table;
+    width: 350px;
+    margin-bottom: 70px;
+    padding: 0 25px;
+}
+
+.sProject .services .ctn .innerCtn .service:last-child {
+    margin-right: 0;
+}
+
+.sProject .services .service h3 {
+    color: #121212;
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 43.5px;
+    margin: 0;
+    margin-bottom: 30px;
+    /* 120.833% */
+}
+
+.sProject .services .service .inhalt {
+    text-align: center;
+}
+
+.sProject .services .service .inhalt p {
+    max-width: 100% !important;
+}
+
+.sProject .services .service .inhalt ul {
+    padding: 0;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.sProject .services .service .inhalt ul li {
+    list-style-type: none;
+    max-width: 100% !important;
+    color: #121212;
+    text-align: center;
+    font-family: "Kanit", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25.5px;
+    margin-bottom: 7px !important;
+    /* 141.667% */
+}
+
+.sProject .services .link {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1550px) {
+    .sProject .top h1 {
+        font-size: 80px;
+    }
+}
 
 @media screen and (max-width: 900px) {
+    .sProject .top {
+        display: block;
+    }
+
+    .sProject .top .details {
+        width: 100%;
+        justify-content: center;
+        margin-top: 60px;
+    }
+
+    .sProject .top .details p, .sProject .top .details span {
+        text-align: center;
+        display: block;
+    }
+
+    .sProject .top h1 {
+        font-size: 10vw;
+        text-align: center;
+    }
+
     .portfolio .left p {
         padding: 0;
         width: 100%;
@@ -100,6 +313,19 @@
 
     .portfolio .left h2 {
         font-size: 12vw;
+    }
+
+    .sProject .services .title {
+        width: 100%;
+    }
+
+    .sProject .services .ctn .innerCtn .service {
+        width: 100%;
+        padding: 0;
+    }
+
+    .sProject .mockup img, .sProject .screenshot .screen {
+        width: 100%;
     }
 }
 
