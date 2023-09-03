@@ -2,9 +2,12 @@ import React from 'react'
 import styles from "./EditorJsTransformer.module.css"
 import Image from 'next/image'
 
-const EditorJsTransformer = ({ inhalt }) => {
+const EditorJsTransformer = (props) => {
+    const inhalt = props.inhalt;
+
+
     return (
-        <div className={styles.inhalt}>
+        <div className={`${styles.inhalt} ${props.className}`}>
             {inhalt.blocks.map(e => {
                 if (e.type === "header") {
                     switch (e.data.level) {

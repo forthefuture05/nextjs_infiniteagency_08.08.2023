@@ -14,7 +14,7 @@ const CircleLink = props => {
                 </div>
             </div>
 
-            <a href={props.href}></a>
+            <a href={props.href} target={props.blank ? "_blank" : undefined}></a>
         </div>
     )
 }

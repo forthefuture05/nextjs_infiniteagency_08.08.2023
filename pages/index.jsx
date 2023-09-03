@@ -188,11 +188,19 @@ export default function home(props) {
                 {projects.map(e => {
                     return <div key={e.id} className={styles.project}>
                         <div className={styles.top}>
-                            <h3>{e.attributes.Name}</h3>
-                            <span>{new Date(e.attributes.Fertigstellung).toLocaleDateString("default", {
-                                month: "long",
-                                year: "numeric"
-                            })}</span>
+                            <div>
+                                <h3>{e.attributes.Name}</h3>
+                                <span>{new Date(e.attributes.Fertigstellung).toLocaleDateString("default", {
+                                    month: "long",
+                                    year: "numeric"
+                                })}</span>
+                            </div>
+
+                            <div className={styles.arrow}>
+                                <Image src="/images/arrowUp.svg" width="18" height="18" />
+                            </div>
+
+                            <Link href={`/portfolio/${e.attributes.Slug}`}></Link>
                         </div>
 
                         <div className={styles.image} style={{ backgroundImage: `url("${e.attributes.Screenshot.data.attributes.url}")` }}></div>
