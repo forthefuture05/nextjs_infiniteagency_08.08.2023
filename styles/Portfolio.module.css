@@ -79,6 +79,7 @@
     line-height: 23.5px;
     margin: 0;
     margin-bottom: 5px;
+    margin-right: 20px;
     /* 117.5% */
 }
 
@@ -332,5 +333,10 @@
 @media screen and (max-width: 450px) {
     .portfolio .left h2 {
         font-size: 50px;
+    }
+
+    .portfolio .project .arrow img {
+        width: 18px;
+        height: 18px;
     }
 }
