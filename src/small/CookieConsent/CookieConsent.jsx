@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react'
 import styles from "./CookieConsent.module.css"
 import Cookies from 'js-cookie'
+import { useRouter } from 'next/router'
 
 const CookieConsent = (props) => {
+    const router = useRouter();
 
     const [accCookies, setAccCookies] = useState(null);
     useEffect(() => {
@@ -17,6 +19,7 @@ const CookieConsent = (props) => {
     const closeCookies = (event) => {
         setAccCookies(true);
         Cookies.set("accCookies", "accepted", { expires: 7 })
+        router.reload();
     }
 
     return (
