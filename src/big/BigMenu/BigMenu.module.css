@@ -7,7 +7,7 @@
     z-index: 100;
     background-color: #121212;
     display: grid;
-    grid-template-columns: [f] 15% [s] auto [t] 25%;
+    grid-template-columns: [f] 17% [s] auto [t] 25%;
 }
 
 .bigMenu .left {
