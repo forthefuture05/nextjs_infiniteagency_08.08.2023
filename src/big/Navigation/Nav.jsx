@@ -10,7 +10,7 @@ const Nav = () => {
     return <>
         <div className={styles.navigation}>
             <div className={styles.image}>
-                <Image src="/images/infiniteBigLogoBlack.png" width="221" height="56" />
+                <Image src="/images/infiniteBigLogoBlack.png" width="316" height="74" />
                 <Link href="/"></Link>
             </div>
 
