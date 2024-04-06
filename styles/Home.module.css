@@ -264,7 +264,7 @@
 }
 
 .expertise .boxes .box p {
-    color: rgba(255, 255, 255, 0.40);
+    color: rgba(255, 255, 255, 0.70);
     margin: 0;
     font-family: "Inter";
     font-size: 16px;
@@ -751,7 +751,7 @@
     }
 
     .blackBox .inside {
-        padding: 75px 4%;
+        padding: 50px 4%;
     }
 
     .expertise .boxes .box h3,
@@ -818,6 +818,10 @@
     .mission .top img {
         width: 220px;
         height: auto;
+    }
+
+    .prozess .box {
+        gap: 65px;
     }
 }
 
@@ -1012,7 +1016,8 @@
         display: none
     }
 
-    .rundum .links, .prozess .links {
+    .rundum .links,
+    .prozess .links {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1025,9 +1030,47 @@
         line-height: 130%;
         gap: 17px;
     }
+
     .rundum .content ul li img {
         width: 28px;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .Hero .underline {
+        margin-left: 10px !important;
+        line-height: 110% !important;
+    }
+
+    .Hero .underline::after {
+        bottom: 10px;
+    }
+
+    .expertise .boxes .box h3,
+    .expertise .underline {
+        font-size: 35px;
+    }
+
+    .expertise .boxes .box.webdesign {
+        border-radius: 17px 17px 17px 75px;
+    }
+
+    .expertise .boxes .box.webdesign .img {
+        border-radius: 15px 15px 15px 67px;
+    }
+
+    .mission .link, .projekte .link {
+        align-self: stretch;
+        align-items: normal;
+        flex-direction: initial !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .blackBox .inside {
+        padding: 50px 4% 35px 4%;
+        border-radius: 25px;
     }
 }
 
@@ -1035,6 +1078,7 @@
     .projekte .top .headline {
         font-size: 9vw;
     }
+
     .projekte .top .headline .underline {
         margin-top: -7px;
     }

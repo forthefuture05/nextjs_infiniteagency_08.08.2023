@@ -185,7 +185,7 @@ export default function dienstleistungen() {
                     </div>
                 </div>
 
-                <div className={styles.paket}>
+                <div className={`${styles.paket} ${styles.last}`}>
                     <div className={styles.top}>
                         <h2>One-Page Website/ <br /> Landingpage</h2>
 

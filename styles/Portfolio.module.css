@@ -404,7 +404,13 @@
 }
 
 .sProject .services .main ul li {
+    display: flex;
     color: #fff;
+}
+
+.sProject .services .main ul li img {
+    display: block;
+    padding-top: 0;
 }
 
 .sProject .link {
@@ -455,7 +461,7 @@
     }
 
     .sProject .blackBox .inside {
-        padding: 75px 4%;
+        padding: 50px 4%;
     }
 
     .sProject .services .boxes .box h3 {
@@ -492,6 +498,19 @@
         padding-right: 20px !important;
     }
 
+    .sProject .top {
+        padding: 65px 20px;
+    }
+
+    .sProject .mockup, .sProject .screenshot {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .sProject .mockup img, .sProject .screenshot .screen {
+        width: 100%;
+    }
+
     .sProject .services .main ul li {
         font-size: 18px;
     }
@@ -499,5 +518,16 @@
     .sProject .services .main ul li img {
         width: 28px;
         height: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .sProject .services .boxes .box h3 {
+        font-size: 35px;
+    }
+
+    .blackBox .inside {
+        padding: 50px 4% 35px 4%;
+        border-radius: 25px;
     }
 }

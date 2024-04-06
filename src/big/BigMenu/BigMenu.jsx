@@ -33,8 +33,8 @@ const BigMenu = props => {
             <div className={styles.main}>
                 <ul>
                     <li><Link href="/">Startseite</Link></li>
-                    <li><Link href="/portfolio">Portfolio</Link></li>
                     <li><Link href="/dienstleistungen">Services</Link></li>
+                    <li><Link href="/portfolio">Portfolio</Link></li>
                     <li><Link href="/blog">Blog</Link></li>
                     <li><Link href="/kontakt">Kontakt</Link></li>
                 </ul>
