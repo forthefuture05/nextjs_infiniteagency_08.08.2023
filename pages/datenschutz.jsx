@@ -1,6 +1,4 @@
 import Main from '@/src/Main'
-import PaddingContainer from '@/src/small/PaddingContainer'
-import Title from '@/src/small/Title'
 import Head from 'next/head'
 import React from 'react'
 import styles from "../src/big/EditorJsTransformer/EditorJsTransformer.module.css"
@@ -18,8 +16,8 @@ export default function datenschutz() {
         </Head>
 
         <Main>
-            <PaddingContainer className={`${styles.inhalt} ${styles2.datenschutz}`}>
-                <Title>Datenschutzerklärung</Title>
+            <div className={`${styles.inhalt} ${styles2.datenschutz}`}>
+                <h1>Datenschutzerklärung</h1>
 
                 <div className={styles.abstand}></div>
 
@@ -290,7 +288,7 @@ export default function datenschutz() {
                 <p>Als verantwortungsbewusstes Unternehmen verzichten wir auf eine automatische Entscheidungsfindung oder ein Profiling.</p>
 
 
-            </PaddingContainer>
+            </div>
         </Main >
     </>
 }

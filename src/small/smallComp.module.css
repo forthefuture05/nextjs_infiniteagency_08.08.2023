@@ -1,0 +1,57 @@
+.blueButton {
+    display: inline-block;
+}
+
+.blueButton a {
+    font-familY: "Inter";
+    color: #fff;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 22.5px;
+    letter-spacing: 1%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 22px 30px;
+    background-color: #3e50eb;
+    border-radius: 10px;
+    transition: all 0.5;
+}
+
+.blueButton.white a {
+    background-color: #fff;
+    color: #181818;
+}
+
+.blueButton a ion-icon {
+    margin-left: 5px;
+    font-size: 20px;
+    transition: all 200ms;
+}
+
+.blueButton:hover a ion-icon {
+    margin-left: 12px;
+}
+
+.blueButton.small a {
+    display: flex;
+    padding: 12px 25px;
+    align-items: center;
+    gap: 6px;
+    border-radius: 10px;
+    background: var(--blueish, #3E50EB);
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.5px;
+    /* 125% */
+    letter-spacing: 0.18px;
+}
+
+@media screen and (max-width: 700px) {
+    .blueButton a {
+        font-size: 18px !important;
+    }
+}

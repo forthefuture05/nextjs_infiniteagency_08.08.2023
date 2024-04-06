@@ -1,0 +1,259 @@
+.kontakt {
+    display: grid;
+    padding: 40px 15% 80px 15%;
+    grid-template-columns: [first] auto [second] 45%;
+    gap: 110px;
+    align-self: stretch;
+}
+
+.kontakt .img {
+    width: 100%;
+    aspect-ratio: 546 / 799;
+    background-image: url("/images/Kontakt-Image.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.kontakt .txt {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.kontakt .txt h2 {
+    color: #121212;
+    font-family: Poppins;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    /* 109.091% */
+    letter-spacing: -1px;
+    align-self: stretch;
+}
+
+.contactForm {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    align-self: stretch;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    align-self: stretch;
+}
+
+.inputs {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 50px;
+    align-self: stretch;
+}
+
+.inputBx {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    font-family: "Inter";
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.error {
+    position: absolute;
+    top: 110%;
+    padding-left: 10px;
+    color: #db3a34;
+}
+
+.inputs input,
+.inputs textarea {
+    border: 0;
+    display: flex;
+    padding: 0px 0px 20px 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 13px;
+    align-self: stretch;
+    border-bottom: 1px solid #CCC;
+    color: #181818;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.5px;
+    margin-bottom: 1px;
+    background-color: none !important;
+    /* 106.818% */
+}
+
+.inputs input::placeholder,
+.inputs textarea::placeholder {
+    color: var(--greyish-greenish, rgba(45, 58, 58, 0.60));
+}
+
+.inputs input:focus,
+.inputs textarea:focus {
+    outline: 0 !important;
+    border-bottom: 2px solid #181818;
+    margin-bottom: 0;
+}
+
+.inputs textarea {
+    height: 100px;
+}
+
+.check {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    align-self: stretch;
+    margin-top: 20px;
+}
+
+.check p {
+    color: rgba(24, 24, 24, 0.80);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 142.857% */
+}
+
+.abschicken {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    align-self: stretch;
+}
+
+.abschicken input, .coverMessage input {
+    display: flex;
+    border: 0;
+    cursor: pointer;
+    padding: 12px 25px;
+    align-items: center;
+    gap: 6px;
+    border-radius: 10px;
+    background: var(--blueish, #3E50EB);
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.5px;
+    /* 125% */
+    letter-spacing: 0.18px;
+}
+
+.abschicken a {
+    color: rgba(62, 80, 235, 0.60);
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 23.5px;
+    /* 167.857% */
+    text-decoration-line: underline;
+    align-self: stretch;
+}
+
+.success .message,
+.success .forms,
+.success .check,
+.success .abschicken {
+    visibility: hidden;
+}
+
+.coverMessage {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: -12px -12px 28px 0px #F3F3F3, 12px 12px 29px 0px #D0D3D7;
+    border-radius: 20px;
+}
+
+.coverMessage p {
+    font-size: 75px;
+    color: #3E50EB;
+    width: 100%;
+    text-align: center;
+}
+
+.coverMessage h3 {
+    color: #181818;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    /* 120% */
+    letter-spacing: -1px;
+}
+
+.coverMessage .link {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+@media screen and (max-width: 1700px) {
+    .kontakt {
+        padding: 40px 10% 80px 10%;
+    }
+
+    .kontakt .txt h2 {
+        font-size: 3vw;
+        line-height: 110%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .kontakt {
+        display: grid;
+        grid-template-columns: [f] 100%;
+        grid-gap: 50px 0 ;
+        padding: 40px 8% 80px 8%;
+    }
+
+    .kontakt .img {
+        background-image: url("/images/Kontakt-Mobile-Image.png");
+        aspect-ratio: 1660 / 415;
+    }
+
+    .kontakt .txt h2 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .kontakt .img {
+        background-image: url("/images/Kontakt-Image-Mobile2.png");
+        aspect-ratio: 1660 / 734;
+    }
+
+    .kontakt {
+        padding: 40px 20px 80px 20px;
+    }
+}

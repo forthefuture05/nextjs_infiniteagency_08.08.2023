@@ -10,7 +10,7 @@ const Nav = () => {
     return <>
         <div className={styles.navigation}>
             <div className={styles.image}>
-                <Image src="/images/infiniteBigLogoBlack2.png" width="316" height="74" />
+                <Image src="/images/Infinite-Logo-Black.svg" width="210" height="54" />
                 <Link href="/"></Link>
             </div>
 
@@ -20,30 +20,22 @@ const Nav = () => {
                         <Link href="/">Startseite</Link>
                     </li>
                     <li>
-                        <Link href="/portfolio">Portfolio</Link>
+                        <Link href="/dienstleistungen">Services</Link>
                     </li>
                     <li>
-                        <Link href="/dienstleistungen">Services +</Link>
-                        <ul>
-                            <div>
-                                <li><Link href="/dienstleistungen/webdesign">Webdesign</Link></li>
-                                <li><Link href="/dienstleistungen/webentwicklung">Web-Entwicklung</Link></li>
-                                <li><Link href="/dienstleistungen/seo">SEO</Link></li>
-                                <li><Link href="/dienstleistungen/social-media-marketing">SMM</Link></li>
-                            </div>
-                        </ul>
+                        <Link href="/portfolio">Portfolio</Link>
                     </li>
                     <li>
                         <Link href="/blog">Blog</Link>
                     </li>
-                    <li>
-                        <Link href="/kontakt">Kontakt</Link>
+                    <li className={styles.special}>
+                        <Link href="/kontakt">Kontakt <ion-icon name="arrow-forward-outline"></ion-icon></Link>
                     </li>
                 </ul>
-            </div>
 
-            <div className={styles.menu} onClick={() => { setOpen(before => { return !before }) }}>
-                <Image src="/images/menu.svg" width="21" height="15" />
+                <div className={styles.menu} onClick={() => { setOpen(before => { return !before }) }}>
+                    <Image src="/images/menu.svg" width="21" height="15" />
+                </div>
             </div>
         </div>
 
