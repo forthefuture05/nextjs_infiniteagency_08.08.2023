@@ -135,6 +135,7 @@
     flex-direction: column;
     align-items: flex-start;
     align-self: stretch;
+    scroll-margin-top: 110px;
 }
 
 .paket .top {
