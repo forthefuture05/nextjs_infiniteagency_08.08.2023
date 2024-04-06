@@ -23,6 +23,10 @@
     color: #181818;
 }
 
+.blueButton.black a {
+    background-color: #181818;
+}
+
 .blueButton a ion-icon {
     margin-left: 5px;
     font-size: 20px;

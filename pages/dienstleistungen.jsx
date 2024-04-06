@@ -28,7 +28,7 @@ export default function dienstleistungen() {
                     <div className={styles.boxes}>
                         <div className={styles.box}>
                             <div className={styles.zeit}>
-                                <p>1 Woche</p>
+                                <p>1 Seite</p>
                             </div>
 
                             <div className={styles.txt}>
@@ -38,48 +38,48 @@ export default function dienstleistungen() {
                                 </div>
 
                                 <div className={styles.link}>
-                                    <BlueButton href="#" small>Ansehen</BlueButton>
+                                    <BlueButton href="#landingpage-paket" small>Ansehen</BlueButton>
                                 </div>
                             </div>
                         </div>
 
                         <div className={styles.box}>
                             <div className={styles.zeit}>
-                                <p>1 Woche</p>
+                                <p>3 Seiten</p>
                             </div>
 
                             <div className={styles.txt}>
                                 <div className={styles.inner}>
-                                    <h3>One-Page Website / Landingpage</h3>
+                                    <h3>Starter Website</h3>
                                     <p>Entwicklung einer einzigartigen Markenidentität, die sich durch klare Botschaften und visuelle Ästhetik auszeichnet.</p>
                                 </div>
 
                                 <div className={styles.link}>
-                                    <BlueButton href="#" small>Ansehen</BlueButton>
+                                    <BlueButton href="#starter-paket" small>Ansehen</BlueButton>
                                 </div>
                             </div>
                         </div>
 
                         <div className={styles.box}>
                             <div className={styles.zeit}>
-                                <p>1 Woche</p>
+                                <p>5 Seiten</p>
                             </div>
 
                             <div className={styles.txt}>
                                 <div className={styles.inner}>
-                                    <h3>One-Page Website / Landingpage</h3>
+                                    <h3>Unternehmens- <br /> Website</h3>
                                     <p>Entwicklung einer einzigartigen Markenidentität, die sich durch klare Botschaften und visuelle Ästhetik auszeichnet.</p>
                                 </div>
 
                                 <div className={styles.link}>
-                                    <BlueButton href="#" small>Ansehen</BlueButton>
+                                    <BlueButton href="#unternehmen-paket" small>Ansehen</BlueButton>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div className={styles.paket}>
+                <div className={styles.paket} id='landingpage-paket'>
                     <div className={styles.top}>
                         <h2>One-Page Website/ <br /> Landingpage</h2>
 
@@ -113,7 +113,7 @@ export default function dienstleistungen() {
                             </div>
 
                             <div className={styles.link}>
-                                <BlueButton href="/kontakt"><span>Lass uns <u>loslegen</u></span></BlueButton>
+                                <BlueButton href="/kontakt" black><span>Lass uns <u>loslegen</u></span></BlueButton>
                             </div>
                         </div>
 
@@ -132,9 +132,9 @@ export default function dienstleistungen() {
                     </div>
                 </div>
 
-                <div className={styles.paket}>
+                <div className={styles.paket} id='starter-paket'>
                     <div className={styles.top}>
-                        <h2>One-Page Website/ <br /> Landingpage</h2>
+                        <h2>Starter Website</h2>
 
                         <ul className={styles.details}>
                             <li><b>Dauer:</b> 1 Woche</li>
@@ -166,7 +166,7 @@ export default function dienstleistungen() {
                             </div>
 
                             <div className={styles.link}>
-                                <BlueButton href="/kontakt"><span>Lass uns <u>loslegen</u></span></BlueButton>
+                                <BlueButton href="/kontakt" black><span>Lass uns <u>loslegen</u></span></BlueButton>
                             </div>
                         </div>
 
@@ -185,9 +185,9 @@ export default function dienstleistungen() {
                     </div>
                 </div>
 
-                <div className={`${styles.paket} ${styles.last}`}>
+                <div className={`${styles.paket} ${styles.last}`} id='unternehmen-paket'>
                     <div className={styles.top}>
-                        <h2>One-Page Website/ <br /> Landingpage</h2>
+                        <h2>Unternehmens- <br /> Website</h2>
 
                         <ul className={styles.details}>
                             <li><b>Dauer:</b> 1 Woche</li>
@@ -219,7 +219,7 @@ export default function dienstleistungen() {
                             </div>
 
                             <div className={styles.link}>
-                                <BlueButton href="/kontakt"><span>Lass uns <u>loslegen</u></span></BlueButton>
+                                <BlueButton href="/kontakt" black><span>Lass uns <u>loslegen</u></span></BlueButton>
                             </div>
                         </div>
 
