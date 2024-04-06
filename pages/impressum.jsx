@@ -1,10 +1,7 @@
 import Main from '@/src/Main'
-import P from '@/src/small/P'
-import PaddingContainer from '@/src/small/PaddingContainer'
-import Title from '@/src/small/Title'
 import Head from 'next/head'
 import React from 'react'
-import styles from "../styles/Impressum.module.css"
+import styles from "@/styles/Impressum.module.css"
 import Link from 'next/link'
 
 export default function impressum() {
@@ -13,12 +10,11 @@ export default function impressum() {
             <title>Impressum | Infinite Agency</title>
             <meta name="description" content="" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-
+            <link rel="icon" href="/images/Infinite-Logo-Icon.svg" />
         </Head>
 
         <Main>
-            <PaddingContainer className={styles.impressum}>
+            <div className={styles.impressum}>
                 <h1>Impressum</h1>
                 <div>
                     <ul>
@@ -42,7 +38,7 @@ export default function impressum() {
                         <li><Link href="/datenschutz">Zur Datenschutzerklärung</Link></li>
                     </ul>
                 </div>
-            </PaddingContainer>
+            </div>
         </Main>
     </>
 }

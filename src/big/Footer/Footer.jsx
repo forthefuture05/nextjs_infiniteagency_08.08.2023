@@ -6,7 +6,7 @@ const Footer = () => {
 
     return (
         <div className={styles.footer}>
-            <p>© 2022 - 2025 | Alle Rechte vorbehalten <br /> von <b>Ininite Agency Munich</b></p>
+            <p>© 2024 | Alle Rechte vorbehalten <br /> von <b>Ininite Agency</b></p>
 
             <div className={styles.links}>
                 <ul>

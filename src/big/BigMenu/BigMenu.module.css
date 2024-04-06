@@ -28,11 +28,11 @@
 
 .bigMenu .left .social h3 {
     color: #FFF;
-    font-family: "Kanit", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 24px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 31.5px;
+    font-weight: 600;
+    line-height: 110%;
     /* 131.25% */
     margin: 0;
     margin-bottom: 20px;
@@ -54,10 +54,10 @@
 
 .bigMenu .left ul li a {
     color: #FFF;
-    font-family: "Kanit", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 28px;
     /* 155.556% */
     text-decoration: none;
@@ -103,10 +103,10 @@
 .bigMenu .main ul li a {
     text-decoration: none;
     color: #FFF;
-    font-family: "Kanit", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 4vw;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 100%;
     /* 100% */
 }
@@ -117,11 +117,11 @@
 
 .bigMenu .right h3 {
     color: #FFF;
-    font-family: "Kanit", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-size: 24px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 31.5px;
+    font-weight: 600;
+    line-height: 110%;
     /* 131.25% */
     margin: 0;
     margin-bottom: 20px;
@@ -139,10 +139,10 @@
 
 .bigMenu .right ul li {
     color: #FFF;
-    font-family: "Kanit", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 18px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 155.556%;
     text-decoration: none;
 }

@@ -1,12 +1,10 @@
 import React from 'react'
-import styles from "../../styles/Blog.module.css"
+import styles from "@/styles/Blog.module.css"
 import Head from 'next/head'
 import Main from '@/src/Main'
-import PaddingContainer from '@/src/small/PaddingContainer'
-import P from '@/src/small/P'
 import Link from 'next/link'
 import Image from 'next/image'
-import CTA from '@/src/small/CallToAction/CTA'
+import Kontakt from '@/src/big/Kontakt/Kontakt'
 
 export default function blog(props) {
     const articles = props.articles;
@@ -16,17 +14,16 @@ export default function blog(props) {
             <title>Unser Blog über Online Marketing | Infinite Agency</title>
             <meta name="description" content="Entdecken Sie die Welt des Online-Marketings mit Infinite Agency. Wertvolle Einblicke, Tipps und Trends für Ihren digitalen Erfolg. Jetzt lesen!" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            
-            
+            <link rel="icon" href="/images/Infinite-Logo-Icon.svg" />
         </Head>
 
         <Main>
-            <PaddingContainer className={styles.blog} classOuter={styles.blogOuter}>
+            <div className={styles.blog}>
                 <div className={styles.top}>
-                    <h1>Wir wollen <br /> Ihren Erfolg!</h1>
+                    <h1>Unser Blog</h1>
 
                     <div className={styles.textBox}>
-                        <P>Umsatzsteigernde Ideen für Ihr Unternehmen - Tauchen Sie ein in unsere Sammlung inspirierender Ideen und innovativer Ansätze für Webdesign, Webentwicklung, SEO und SMM.</P>
+                        <p>Tauchen Sie ein in unsere Sammlung inspirierender Ideen und innovativer Ansätze für Webdesign, Webentwicklung, SEO und SMM.</p>
                     </div>
                 </div>
 
@@ -54,15 +51,15 @@ export default function blog(props) {
                         </div>
                     })}
                 </div>
-            </PaddingContainer>
+            </div>
 
-            <CTA href="/kontakt" link="Kontakt" subTitle="Beratung" noTop>Sie haben Fragen bezüglich Online Marketing? <br /> Wir beraten Sie gerne!</CTA>
+            <Kontakt />
         </Main>
     </>
 }
 
 export async function getStaticProps() {
-    const req = await fetch(`${process.env.STRAPI_URL}/api/posts/?populate=Bild&sort=publishedAt:desc`)
+    const req = await fetch(`${process.env.NEXT_PUBLIC_STRAPI_URL}/api/posts/?populate=Bild&sort=publishedAt:desc`)
     const res = await req.json();
 
     return {

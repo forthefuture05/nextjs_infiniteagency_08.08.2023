@@ -1,22 +1,36 @@
-.blogOuter {
-    padding-top: 100px !important;
+.blog,
+.bigPost {
+    padding: 65px 340px;
 }
 
 .blog .top {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 120px;
+    margin-bottom: 75px;
 }
 
 .blog .top h1 {
-    color: #121212;
-    font-family: "Kanit", sans-serif;
-    font-size: 7vw;
+    color: #181818;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 115%;
+    /* 125% */
+    letter-spacing: -1px;
+    max-width: 750px;
+}
+
+.blog .top p {
+    color: rgba(24, 24, 24, 0.80);
+    font-family: Inter;
+    font-size: 18px;
     font-style: normal;
     font-weight: 500;
-    line-height: 100%;
-    margin: 0;
+    line-height: 27px;
+    /* 150% */
+    letter-spacing: 0.18px;
 }
 
 .blog .top .textBox {
@@ -116,7 +130,7 @@
 }
 
 .bigPost .inside {
-    padding: 0 15%;
+    padding: 0 30px;
 }
 
 .bigPost .info1 {
@@ -125,10 +139,10 @@
 
 .bigPost .info1 span.cat {
     color: #121212;
-    font-family: "Kanit", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 25.5px;
     /* 159.375% */
 }
@@ -143,21 +157,23 @@
 
 .bigPost .info1 span.date {
     color: #555;
-    font-family: "Kanit", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 25.5px;
     /* 159.375% */
 }
 
 .bigPost h1 {
     color: #121212;
-    font-family: "Kanit", sans-serif;
-    font-size: 80px;
+    font-family: Poppins;
+    font-size: 64px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 100%;
+    font-weight: 600;
+    line-height: 114%;
+    /* 114.063% */
+    letter-spacing: -1px;
     margin: 0;
     margin-top: 13px;
     margin-bottom: 40px;
@@ -173,23 +189,24 @@
 }
 
 .bigPost .info2 .box div {
-    color: #8E8E8E;
-    font-family: "Kanit", sans-serif;
+    color: #181818;
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
     font-style: normal;
-    font-weight: 400;
-    line-height: 22.5px;
-    margin-bottom: 0;
+    font-weight: 600;
+    line-height: 160.714%;
+    margin-bottom: 4px;
     /* 160.714% */
 }
 
 .bigPost .info2 .box span {
-    color: #555;
-    font-family: "Kanit", sans-serif;
+    color: #333;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 24.5px;
+    font-weight: 400;
+    line-height: 110.125%;
+    margin-top: 4px;
     /* 153.125% */
 }
 
@@ -199,18 +216,45 @@
     background-size: cover;
     background-position: center;
     margin: 50px 0;
+    border-radius: 15px;
 }
 
 .relatedOuter {
     padding-top: 0 !important;
 }
-.relatedOuter .title {
-    text-transform: none !important;
+
+.title {
+    color: #121212;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px;
+    /* 125% */
+    letter-spacing: -1px;
+}
+
+@media screen and (max-width: 1750px) {
+
+    .blog,
+    .bigPost {
+        padding: 65px 15%;
+    }
+
+    .bigPost {
+        padding: 65px 10%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .blog .top h1 {
+        font-size: 35px;
+    }
 }
 
 @media screen and (max-width: 1150px) {
     .bigPost h1 {
-        font-size: 7vw;
+        font-size: 5vw;
     }
 }
 
@@ -245,6 +289,13 @@
     }
 }
 
+@media screen and (max-width: 700px) {
+    .blog,
+    .bigPost {
+        padding: 65px 20px;
+    }
+}
+
 @media screen and (max-width: 600px) {
     .blog .posts {
         grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
@@ -261,5 +312,9 @@
 
     .bigPost .inside {
         padding: 0 5px;
+    }
+
+    .bigPost h1 {
+        font-size: 30px;
     }
 }

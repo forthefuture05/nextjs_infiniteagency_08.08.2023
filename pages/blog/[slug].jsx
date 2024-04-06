@@ -2,12 +2,10 @@ import React from 'react'
 import styles from "../../styles/Blog.module.css"
 import Main from '@/src/Main'
 import Head from 'next/head'
-import PaddingContainer from '@/src/small/PaddingContainer';
 import EditorJsTransformer from '@/src/big/EditorJsTransformer/EditorJsTransformer';
-import Title from '@/src/small/Title';
 import Link from 'next/link';
 import Image from 'next/image';
-import CTA from '@/src/small/CallToAction/CTA';
+import Kontakt from '@/src/big/Kontakt/Kontakt';
 
 export default function post(props) {
     const articles = props.posts;
@@ -19,12 +17,11 @@ export default function post(props) {
             <title>{post.Titel}</title>
             <meta name="description" content={post.Description} />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
-            
-            
+            <link rel="icon" href="/images/Infinite-Logo-Icon.svg" />            
         </Head>
 
         <Main>
-            <PaddingContainer className={styles.bigPost} outerClass={styles.bigPostOuter}>
+            <div className={styles.bigPost} outerClass={styles.bigPostOuter}>
                 <div className={styles.inside}>
                     <div className={styles.info1}>
                         <span className={styles.cat}>{post.Category}</span>
@@ -55,10 +52,10 @@ export default function post(props) {
                 <div className={styles.inside}>
                     <EditorJsTransformer inhalt={inhalt} />
                 </div>
-            </PaddingContainer>
+            </div>
 
-            <PaddingContainer className={styles.blog} outerClass={styles.relatedOuter}>
-                <Title className={styles.title}>Das könnte Sie auch interessieren</Title>
+            <div className={styles.blog} outerClass={styles.relatedOuter}>
+                <h2 className={styles.title}>Das könnte Sie auch interessieren:</h2>
                 <div className={styles.posts}>
                     {articles.map(e => {
                         return <div key={e.id} className={styles.post}>
@@ -83,15 +80,15 @@ export default function post(props) {
                         </div>
                     })}
                 </div>
-            </PaddingContainer>
+            </div>
 
-            <CTA href="/kontakt" link="Kontakt" subTitle="Beratung" noTop>Sie haben Fragen bezüglich Online Marketing? <br /> Wir beraten Sie gerne!</CTA>
+            <Kontakt/>
         </Main>
     </>
 }
 
 export async function getStaticPaths() {
-    const res = await fetch(`${process.env.STRAPI_URL}/api/posts`)
+    const res = await fetch(`${process.env.NEXT_PUBLIC_STRAPI_URL}/api/posts`)
     const posts = await res.json()
 
     // Get the paths we want to pre-render based on posts
@@ -107,10 +104,10 @@ export async function getStaticPaths() {
 export async function getStaticProps(context) {
     const slug = context.params.slug;
 
-    const resP = await fetch(`${process.env.STRAPI_URL}/api/posts?filters[Slug][$eq]=${slug}&populate=Bild`)
+    const resP = await fetch(`${process.env.NEXT_PUBLIC_STRAPI_URL}/api/posts?filters[Slug][$eq]=${slug}&populate=Bild`)
     const post = await resP.json();
 
-    const req = await fetch(`${process.env.STRAPI_URL}/api/posts/?populate=Bild&sort=publishedAt:desc&pagination[limit]=3`)
+    const req = await fetch(`${process.env.NEXT_PUBLIC_STRAPI_URL}/api/posts/?populate=Bild&sort=publishedAt:desc&pagination[limit]=3`)
     const res = await req.json();
 
     return {

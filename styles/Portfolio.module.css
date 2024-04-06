@@ -1,63 +1,63 @@
-.portfolioOuter {
-    padding-top: 100px !important;
-}
+/* Header */
 
-.portfolio {
-    display: grid;
-    grid-template-columns: [first] 35% [second] auto;
-    grid-gap: 0 4%;
-}
-
-.portfolio .left span.sub {
-    color: #555;
-    font-family: "Kanit", sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 30.5px;
-    /* 127.083% */
-}
-
-.portfolio .left h2 {
-    color: #121212;
-    font-family: "Kanit", sans-serif;
-    font-size: 100px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 91.667%;
-    margin-top: 4px;
-    margin-bottom: 25px;
-    /* 91.667% */
-}
-
-.portfolio .left p {
-    padding-left: 100px;
-    position: relative;
-    margin-bottom: 60px;
-}
-
-.portfolio .left p::before {
-    content: "";
-    position: absolute;
-    width: 70px;
-    height: 1px;
-    top: 10%;
-    left: 0;
-    background-color: #121212;
-}
-
-.portfolio .project {
-    margin-bottom: 80px;
-}
-
-.portfolio .project .bottom {
+.header {
     display: flex;
-    justify-content: space-between;
-    position: relative;
+    padding: 45px 240px 0px 240px;
+    justify-content: center;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.header .img {
+    background-image: url("/images/Portfolio-Image.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    aspect-ratio: 890 / 426;
+    max-width: 890px;
     width: 100%;
 }
 
-.portfolio .project .bottom a {
+/* Projekte */
+
+.projekte {
+    display: flex;
+    padding: 150px 515px 50px 515px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 55px;
+    margin-bottom: 75px;
+}
+
+.projekte h1 {
+    color: var(--blackish, #181818);
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    /* 102.857% */
+    letter-spacing: -1px;
+}
+
+.projekte .inner {
+    width: 100%;
+    display: grid;
+    grid-template-columns: [f] 45% [s] 45%;
+    grid-gap: 65px 10%;
+}
+
+.projekte .projekt {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 21px;
+    width: 100%;
+}
+
+.projekte .projekt a {
     position: absolute;
     top: 0;
     left: 0;
@@ -65,52 +65,90 @@
     height: 100%;
 }
 
-.portfolio .project .bottom .arrow {
-    display: fleX;
-    align-items: center;
+.projekte .projekt .image {
+    width: 100%;
+    aspect-ratio: 380 / 440;
+    background-size: cover;
+    background-position: top;
 }
 
-.portfolio .project .bottom h3 {
+.projekte .projekt .bottom div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+}
+
+.projekte .projekt .bottom h3 {
     color: #121212;
-    font-family: "Kanit", sans-serif;
-    font-size: 20px;
+    font-family: "Poppins";
+    font-size: 18px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 23.5px;
-    margin: 0;
-    margin-bottom: 5px;
-    margin-right: 20px;
-    /* 117.5% */
+    font-weight: 600;
+    line-height: 110%;
+    /* 19.8px */
 }
 
-.portfolio .project .bottom span {
+.projekte .projekt .bottom p {
     color: #555;
-    font-family: "Kanit", sans-serif;
+    font-family: "Inter";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 18.5px;
-    margin: 0;
     /* 132.143% */
 }
 
-.portfolio .project .image {
-    margin-bottom: 20px;
-    background-size: cover;
-    background-position: top;
-    aspect-ratio: 560/700;
-    position: relative;
-}
-
-.portfolio .project .image a {
+.projekte .sliderPrev {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+    width: 100px;
     height: 100%;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-/* Project Page */
+.projekte .sliderNext {
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    z-index: 2000;
+    right: 0;
+    top: 0;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projekte .sliderNext div,
+.projekte .sliderPrev div {
+    display: inline-flex;
+    padding: 16px;
+    gap: 8px;
+    border-radius: 50px;
+    background: var(--yellowish, #FFE45E);
+    font-size: 24px;
+    color: #181818;
+    cursor: pointer;
+    transition: all 200ms;
+}
+
+.projekte .link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 10px;
+    align-self: stretch;
+}
+
+
+/* SINGLE PROJEKT */
 
 .sProject .topOuter {
     padding: 40px !important;
@@ -119,48 +157,51 @@
 .sProject .top {
     display: grid;
     grid-template-columns: [first] auto [second] 300px;
-    grid-gap: 0 10%;
+    grid-gap: 25px 10%;
+    padding: 65px 350px;
 }
 
 .sProject .top h1 {
     color: #121212;
-    font-family: "Kanit", sans-serif;
-    font-size: 100px;
+    font-family: Poppins;
+    font-size: 48px;
     font-style: normal;
-    font-weight: 500;
-    line-height: 100%;
-    /* 100% */
-    max-width: 800px;
-    margin: 0;
+    font-weight: 600;
+    line-height: 60px;
+    /* 125% */
+    letter-spacing: -1px;
+    max-width: 750px;
 }
 
 .sProject .top .details {
+    width: 100%;
     display: flex;
     align-items: center;
 }
 
 .sProject .top .details .innerCtn {
+    width: 100%;
     display: grid;
     grid-template-columns: [first] 45% [second] 45%;
     grid-gap: 20px 10%;
 }
 
 .sProject .top .details span {
-    color: #8E8E8E;
-    font-family: "Kanit", sans-serif;
+    color: #181818;
+    font-family: "Poppins", sans-serif;
     font-size: 14px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 160.714%;
     /* 160.714% */
 }
 
 .sProject .top .details p {
-    color: #555;
-    font-family: "Kanit", sans-serif;
+    color: #333;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 110.125%;
     margin: 0;
     margin-top: 4px;
@@ -170,11 +211,17 @@
 .sProject .mockup {
     display: flex;
     justify-content: center;
+    margin-bottom: 80px;
 }
 
 .sProject .mockup img {
     width: 70%;
+    max-width: 800px;
     height: auto;
+}
+
+.sProject .screenshot {
+    margin: 75px 0;
 }
 
 .sProject .screenshot .center {
@@ -191,152 +238,266 @@
 
 .sProject .screenshot .screen {
     width: 60%;
+    max-width: 750px;
     height: auto;
+    border: 1px solid #ddd;
 }
 
-.sProject .services .title {
-    text-align: center;
-    width: 70%;
+/* Schwarze Box 1 */
+
+.sProject .blackBox {
     display: block;
-    margin: 0 auto;
-    margin-bottom: 100px;
+    padding: 0 250px;
+    width: 100%;
 }
 
-.sProject .services .ctn{
+.sProject .blackBox .inside {
+    padding: 90px 75px;
+    border-radius: 45px;
+    width: 100%;
+    background-color: #181818;
+    color: #fff;
+}
+
+.sProject .blackBox .topSec {
     display: flex;
-    justify-content: center;
+    padding-bottom: 50px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-bottom: 1px solid #CCC;
 }
 
-.sProject .services .ctn .innerCtn {
-    /* display: flex; */
-    text-align: center;
-}
-
-.sProject .services .ctn .innerCtn .service {
-    display: inline-table;
-    width: 370px;
-    margin-bottom: 70px;
-    padding: 0 25px;
-}
-
-.sProject .services .ctn .innerCtn .service:last-child {
-    margin-right: 0;
-}
-
-.sProject .services .service h3 {
-    color: #121212;
-    text-align: center;
-    font-family: "Kanit", sans-serif;
-    font-size: 36px;
+.sProject .blackBox .topSec h2 {
+    color: var(--white, #FFF);
+    font-family: "Poppins";
+    font-size: 35px;
     font-style: normal;
     font-weight: 500;
-    line-height: 43.5px;
+    line-height: 36px;
+    /* 102.857% */
+    letter-spacing: -1px;
+}
+
+.sProject .blackBox .topSec p {
+    color: #CCC;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    /* 143.75% */
+    letter-spacing: 0.16px;
+    max-width: 500px;
+}
+
+/* Unsere services */
+
+.sProject .services .main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.services .boxes {
+    display: flex;
+    padding-top: 75px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.sProject .services .boxes .box {
+    display: flex;
+    padding: 35px 20px 20px 20px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 30px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 17px;
+    background: var(--greyish-greenish, rgba(45, 58, 58, 0.60));
+    max-width: 600px;
+}
+
+.sProject .services .boxes .box .upside {
+    display: flex;
+    padding: 0px 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    align-self: stretch;
+}
+
+.sProject .services .boxes .box h3 {
     margin: 0;
-    margin-bottom: 30px;
-    /* 120.833% */
+    color: var(--yellowish, #FFE45E);
+    font-family: "Poppins";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    /* 60px */
+    letter-spacing: -1px;
+    align-self: stretch;
 }
 
-.sProject .services .service .inhalt {
-    text-align: center;
+.sProject .services .boxes .box.webdesign h3 {
+    color: var(--white, #FFF);
+    font-family: "Poppins";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+    /* 60px */
+    letter-spacing: -1px;
 }
 
-.sProject .services .service .inhalt p {
-    max-width: 100% !important;
-}
-
-.sProject .services .service .inhalt ul {
-    padding: 0;
+.sProject .services .boxes .box hr {
+    display: block;
     width: 100%;
+    height: 1px;
+}
+
+.sProject .services .boxes .box p {
+    color: rgba(255, 255, 255, 0.40);
+    margin: 0;
+    font-family: "Inter";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 23px;
+    /* 143.75% */
+    letter-spacing: 0.16px;
+    align-self: stretch;
+}
+
+.sProject .services .boxes .box .img {
+    border-radius: 15px;
+    width: 100%;
+    aspect-ratio: 500/312;
+    align-self: stretch;
+    background-position: center;
+    background-size: 120%;
+}
+
+.sProject .services .boxes .box.webdesign .img {
+    border-radius: 15px 15px 15px 135px;
+}
+
+.sProject .services .main .link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+
+.sProject .services ul {
+    margin-top: 30px;
+    padding: 0;
+}
+
+.sProject .services .main ul li {
+    color: #fff;
+}
+
+.sProject .link {
     margin-top: 50px;
 }
 
-.sProject .services .service .inhalt ul li {
-    list-style-type: none;
-    max-width: 100% !important;
-    color: #121212;
-    text-align: center;
-    font-family: "Kanit", sans-serif;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 25.5px;
-    margin-bottom: 7px !important;
-    /* 141.667% */
-}
-
-.sProject .services .link {
-    display: flex;
-    justify-content: center;
-}
-
-@media screen and (max-width: 1550px) {
-    .sProject .top h1 {
-        font-size: 80px;
+@media screen and (max-width: 1750px) {
+    .header {
+        padding: 45px 10% 0 10%;
     }
-}
 
-@media screen and (max-width: 900px) {
+    .projekte {
+        padding: 150px 20% 50px 20%;
+    }
+
     .sProject .top {
-        display: block;
+        padding: 65px 15%;
     }
 
-    .sProject .top .details {
-        width: 100%;
-        justify-content: center;
-        margin-top: 60px;
-    }
-
-    .sProject .top .details p, .sProject .top .details span {
-        text-align: center;
-        display: block;
-    }
-
-    .sProject .top h1 {
-        font-size: 10vw;
-        text-align: center;
-    }
-
-    .portfolio .left p {
-        padding: 0;
-        width: 100%;
-    }
-
-    .portfolio .left p::before {
-        display: none;
+    .sProject .blackBox {
+        padding: 0 10%;
     }
 }
 
-@media screen and (max-width: 720px) {
-    .portfolio {
+@media screen and (max-width: 1750px) {
+    .projekte {
+        padding: 150px 10% 50px 10%;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    .projekte h1 {
+        font-size: 30px;
+    }
+
+    .sProject .services .boxes .box h3 {
+        font-size: 45px;
+    }
+
+    .sProject .blackBox .topSec h2 {
+        font-size: 30px
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .sProject .blackBox {
+        padding: 0 3%;
+    }
+
+    .sProject .blackBox .inside {
+        padding: 75px 4%;
+    }
+
+    .sProject .services .boxes .box h3 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .sProject .top {
+        grid-template-columns: [first] 100%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .header {
+        padding: 45px 20px 0 20px;
+    }
+
+    .header .img {
+        border-radius: 20px;
+    }
+
+    .projekte .inner {
         grid-template-columns: [f] 100%;
-        grid-gap: 50px 0;
     }
 
-    .portfolio .left h2 {
-        font-size: 12vw;
+    .projekte {
+        padding: 60px 20px 50px 20px;
+        gap: 35px;
     }
 
-    .sProject .services .title {
-        width: 100%;
+    .blackBox {
+        padding-left: 20px !important;
+        padding-right: 20px !important;
     }
 
-    .sProject .services .ctn .innerCtn .service {
-        width: 100%;
-        padding: 0;
+    .sProject .services .main ul li {
+        font-size: 18px;
     }
 
-    .sProject .mockup img, .sProject .screenshot .screen {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .portfolio .left h2 {
-        font-size: 50px;
-    }
-
-    .portfolio .project .arrow img {
-        width: 18px;
-        height: 18px;
+    .sProject .services .main ul li img {
+        width: 28px;
+        height: auto;
     }
 }

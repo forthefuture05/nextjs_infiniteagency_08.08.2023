@@ -8,7 +8,7 @@ const BigMenu = props => {
         <div className={styles.bigMenu}>
             <div className={styles.left}>
                 <div className={styles.logo}>
-                    <Image src="/images/infiniteBigLogo2.png" width="316" height="74" />
+                    <Image src="/images/Infinite-Logo-White.svg" width="288" height="74" />
                 </div>
 
                 <div className={styles.social}>

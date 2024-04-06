@@ -39,7 +39,7 @@ const EditorJsTransformer = (props) => {
                 if (e.type === "list" && e.data.style === "unordered") {
                     return <ul key={e.id}>
                         {e.data.items.map(item => {
-                            return <li key={item} dangerouslySetInnerHTML={{ __html: item }}></li>
+                            return <li key={item}><Image src="/images/check.svg" width={36} height={36} /> <span dangerouslySetInnerHTML={{ __html: item }}></span></li>
                         })}
                     </ul>
                 }
@@ -47,7 +47,7 @@ const EditorJsTransformer = (props) => {
                 if (e.type === "list" && e.data.style === "ordered") {
                     return <ol key={e.id}>
                         {e.data.items.map(item => {
-                            return <li key={item} dangerouslySetInnerHTML={{ __html: item }}></li>
+                            return <li key={item}><span dangerouslySetInnerHTML={{ __html: item }}></span></li>
                         })}
                     </ol>
                 }
