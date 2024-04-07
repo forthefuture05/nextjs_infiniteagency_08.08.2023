@@ -698,7 +698,7 @@
     }
 
     .rundum .top h2 {
-        font-size: 5vw;
+        font-size: 45px;
         line-height: 114%;
     }
 
@@ -791,6 +791,11 @@
         display: block;
         width: 100%;
         aspect-ratio: 2 / 1;
+    }
+
+    .rundum .top h2 {
+        font-size: 35px;
+        line-height: 114%;
     }
 }
 
@@ -890,10 +895,6 @@
     .projekte .top .headline .underline {
         margin-top: -20px;
     }
-
-    .rundum .top h2 {
-        font-size: 50px;
-    }
 }
 
 @media screen and (max-width: 900px) {
@@ -901,10 +902,6 @@
         display: grid;
         grid-template-columns: [f] 100%;
         grid-gap: 25px 0;
-    }
-
-    .rundum .top h2 {
-        font-size: 5.75vw;
     }
 }
 

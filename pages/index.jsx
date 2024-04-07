@@ -176,10 +176,12 @@ export default function Home(props) {
                                         <div className={styles.bottom}>
                                             <div>
                                                 <h3>{e.attributes.Name}</h3>
-                                                <p>{new Date(e.attributes.Fertigstellung).toLocaleDateString("default", {
+                                                {/* <p>{new Date(e.attributes.Fertigstellung).toLocaleDateString("default", {
                                                     month: "long",
                                                     year: "numeric"
-                                                })}</p>
+                                                })}</p> */}
+                                                <p>{e.attributes.Category}</p>
+
                                             </div>
 
                                             <Link href={`/portfolio/${e.attributes.Slug}`}></Link>

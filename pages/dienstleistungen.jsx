@@ -288,7 +288,7 @@ export default function dienstleistungen() {
 
                             <div className={styles.links}>
                                 <BlueButton href="/kontakt">Lerne uns kennen</BlueButton>
-                                <Link href="/dienstleistungen" className={styles.services}>Unsere Services</Link>
+                                {/* <Link href="/dienstleistungen" className={styles.services}>Unsere Services</Link> */}
                             </div>
                         </div>
                     </div>
