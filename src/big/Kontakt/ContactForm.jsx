@@ -24,7 +24,7 @@ const ContactForm = props => {
                 break;
             case "website":
                 if (value.length < 3) {
-                    return "Wenn Sie eine Website haben dann bitte hier angeben (sonst ignorieren)";
+                    return "Wenn Sie eine Website haben, dann bitte hier angeben (sonst ignorieren)";
                 }
                 break;
             case "message":
@@ -113,7 +113,7 @@ const ContactForm = props => {
                         </div>
 
                         <div className={styles.inputBx}>
-                            <textarea placeholder="Wie können wir helfen? Erzähle uns mehr über Dein Projekt oder wann es Dir passt, kontaktiert zu werden. *" name="message" onBlur={handleChange} required rows="1"></textarea>
+                            <textarea placeholder="Wie können wir helfen? Erzählen Sie uns über Ihr Projekt oder wann Sie kontaktiert werden möchten. *" name="message" onBlur={handleChange} required rows="1"></textarea>
                             {errors.message && <div className={styles.error}>{errors.message}</div>}
                         </div>
                     </div>

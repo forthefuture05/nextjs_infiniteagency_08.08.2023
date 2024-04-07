@@ -37,7 +37,7 @@ export default function Home(props) {
                     <div className={styles.txt}>
                         <div>
                             <h1>Webdesign Agentur aus München</h1>
-                            <div className={styles.headline}><div>Deine Vision.  <br /> <div className={styles.flex}>Unsere <div className={styles.underline}>Realität.</div></div></div></div>
+                            <div className={styles.headline}><div>Ihre Vision.  <br /> <div className={styles.flex}>Unsere <div className={styles.underline}>Realität.</div></div></div></div>
                             <p>Bei uns erzählt jedes Pixel Ihre Geschichte und jedes Design ebnet den Weg zu Ihrem Erfolg.</p>
 
                             <div className={styles.linksOuter}>
@@ -74,7 +74,7 @@ export default function Home(props) {
                                         <div className={styles.upside}>
                                             <h3>Unternehmen Branding</h3>
                                             <hr />
-                                            <p>Mit fundierter Expertise beherrschen wir die Bereiche Branding, Webdesign und Webentwicklung, um maßgeschneiderte Lösungen für Ihr Unternehmen zu schaffen.</p>
+                                            <p>Unser Branding-Service entwickelt eine einzigartige visuelle Identität, die Ihr Unternehmen authentisch repräsentiert und Ihre Zielgruppe anspricht. Wir helfen Ihnen, eine starke Markenpräsenz aufzubauen und sich in einem wettbewerbsintensiven Markt zu differenzieren.</p>
                                         </div>
 
                                         <div className={styles.img} style={{ backgroundImage: "url('/images/Expertise-Branding-4.png')" }}></div>
@@ -84,7 +84,7 @@ export default function Home(props) {
                                         <div className={styles.upside}>
                                             <div><div className={styles.underline}>Webdesign</div></div>
                                             <hr />
-                                            <p>Mit fundierter Expertise beherrschen wir die Bereiche Branding, Webdesign und Webentwicklung, um maßgeschneiderte Lösungen für Ihr Unternehmen zu schaffen.</p>
+                                            <p>Wir konzentrieren uns auf benutzerzentriertes Design und intuitive Navigation, um Websites zu erstellen, die beeindrucken und Ergebnisse liefern. Wir bringen Ihre Online-Präsenz auf ein neues Niveau und helfen Ihnen, sich von der Konkurrenz abzuheben.</p>
                                         </div>
 
                                         <div className={styles.img} style={{ backgroundImage: "url('/images/Expertise-Webdesign.png')" }}></div>
@@ -94,7 +94,7 @@ export default function Home(props) {
                                         <div className={styles.upside}>
                                             <h3>Web- <br /> Entwicklung</h3>
                                             <hr />
-                                            <p>Mit fundierter Expertise beherrschen wir die Bereiche Branding, Webdesign und Webentwicklung, um maßgeschneiderte Lösungen für Ihr Unternehmen zu schaffen.</p>
+                                            <p>Wir bieten maßgeschneiderte Lösungen, die auf Ihre spezifischen Anforderungen zugeschnitten sind. Wir nutzen die neuesten Technologien, wie <Link href="https://webflow.com/" target='_blank'>Webflow</Link>, um robuste und leistungsstarke Websites zu entwickeln, die Ihren Geschäftszielen entsprechen.</p>
                                         </div>
 
                                         <div className={styles.img} style={{ backgroundImage: "url('/images/Expertise-Webdev.jpg')" }}></div>
@@ -116,9 +116,9 @@ export default function Home(props) {
                                 </div>
 
                                 <div className={styles.title}>
-                                    <p>“Infinite Agency ist der Motor hinter kleinen Unternehmen, die im digitalen Raum gedeihen wollen.
-                                        Mit unserer kreativen Fusion aus Branding, Webdesign und Webentwicklung möchten wir Sie dabei unterstützen, ihre digitalen Träume zu verwirklichen.”
-                                        <br /><span>- Patrik Sandu, Gründer von IA</span></p>
+                                    <p>“Infinite Agency ist der Motor hinter kleinen Unternehmen, die im digitalen Raum erflogreich sein wollen.
+                                        Mit unserer kreativen Fusion aus Branding, Webdesign und Webentwicklung unterstützen wir Sie dabei eine professionelle Webpräsenz aufzubauen die Kunden anzieht!”
+                                        <br /><span>- Patrik Sandu, Gründer von I. A.</span></p>
                                 </div>
 
                                 <div className={styles.link}>
@@ -176,10 +176,12 @@ export default function Home(props) {
                                         <div className={styles.bottom}>
                                             <div>
                                                 <h3>{e.attributes.Name}</h3>
-                                                <p>{new Date(e.attributes.Fertigstellung).toLocaleDateString("default", {
+                                                {/* <p>{new Date(e.attributes.Fertigstellung).toLocaleDateString("default", {
                                                     month: "long",
                                                     year: "numeric"
-                                                })}</p>
+                                                })}</p> */}
+                                                <p>{e.attributes.Category}</p>
+
                                             </div>
 
                                             <Link href={`/portfolio/${e.attributes.Slug}`}></Link>
@@ -245,8 +247,8 @@ export default function Home(props) {
                                     <span>1</span>
 
                                     <div className={styles.txt}>
-                                        <h3>Analyse</h3>
-                                        <p>Entwicklung einer einzigartigen Markenidentität, die sich durch klare Botschaften und visuelle Ästhetik auszeichnet.</p>
+                                        <h3>Erstgespräch</h3>
+                                        <p>In unserem ersten Gespräch befassen wir uns mit Ihren Zielen und Bedürfnissen, um eine maßgeschneiderte Lösung zu entwickeln, die perfekt zu Ihrem Unternehmen passt.</p>
                                     </div>
                                 </div>
 
@@ -255,7 +257,7 @@ export default function Home(props) {
 
                                     <div className={styles.txt}>
                                         <h3>Strategie</h3>
-                                        <p>Entwicklung einer einzigartigen Markenidentität, die sich durch klare Botschaften und visuelle Ästhetik auszeichnet.</p>
+                                        <p>Basierend auf den Informationen aus dem Erstgespräch entwickeln wir eine umfassende Strategie, die darauf abzielt, Ihre Online-Präsenz zu stärken und Ihre Ziele zu erreichen.</p>
                                     </div>
                                 </div>
 
@@ -264,7 +266,7 @@ export default function Home(props) {
 
                                     <div className={styles.txt}>
                                         <h3>Design & Entwicklung</h3>
-                                        <p>Entwicklung einer einzigartigen Markenidentität, die sich durch klare Botschaften und visuelle Ästhetik auszeichnet.</p>
+                                        <p>Wir erarbeiten in diesem Schritt ein ansprechendes und benutzerfreundliches Design, das Ihre Markenidentität widerspiegelt und gleichzeitig die bestmögliche Benutzererfahrung bietet.</p>
                                     </div>
                                 </div>
 
@@ -273,7 +275,7 @@ export default function Home(props) {
 
                                     <div className={styles.txt}>
                                         <h3>Launch</h3>
-                                        <p>Entwicklung einer einzigartigen Markenidentität, die sich durch klare Botschaften und visuelle Ästhetik auszeichnet.</p>
+                                        <p>Nach abschließender Überprüfung und Testphase laden wir Ihre neue Website hoch und bieten Ihnen zusätzlich angepasste Tutorials an, um sicherzustellen, dass Sie Ihre Website problemlos verwalten können.</p>
                                     </div>
                                 </div>
                             </div>
