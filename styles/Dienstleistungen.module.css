@@ -276,7 +276,7 @@
 }
 
 .paket .projekt .title {
-    max-width: 85%;
+    width: 85%;
     position: relative;
     display: flex;
     padding: 17px 24px;

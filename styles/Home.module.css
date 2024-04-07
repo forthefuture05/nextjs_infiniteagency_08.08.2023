@@ -276,6 +276,10 @@
     align-self: stretch;
 }
 
+.expertise .boxes .box p a {
+    color: #3E50EB;
+}
+
 .expertise .boxes .box .img {
     border-radius: 15px;
     width: 100%;
