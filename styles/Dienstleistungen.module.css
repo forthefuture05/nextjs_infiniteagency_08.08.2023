@@ -191,6 +191,7 @@
     justify-content: space-between;
     align-items: flex-start;
     align-self: stretch;
+    gap: 20px;
 }
 
 .paket .bottom .left .content {

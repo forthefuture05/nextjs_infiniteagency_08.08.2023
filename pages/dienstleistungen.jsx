@@ -51,7 +51,7 @@ export default function dienstleistungen() {
                             <div className={styles.txt}>
                                 <div className={styles.inner}>
                                     <h3>Starter Website</h3>
-                                    <p>Unsere Starter Website mit 3 Seiten ist ideal für Unternehmen, die mehr Platz für Informationen benötigen, wie einer Über uns- und einer Dienstleistungsseite, um professionell und umfassend präsentiert zu werden.</p>
+                                    <p>Dieses Website-Paket mit 3 Seiten ist ideal für Unternehmen, die mehr Platz für Informationen benötigen, wie einer Über uns- oder einer Dienstleistungsseite, um professionell und umfassend präsentiert zu werden.</p>
                                 </div>
 
                                 <div className={styles.link}>
@@ -68,7 +68,7 @@ export default function dienstleistungen() {
                             <div className={styles.txt}>
                                 <div className={styles.inner}>
                                     <h3>Unternehmens- <br /> Website</h3>
-                                    <p>Unsere Unternehmenswebsite mit 5 Seiten und integriertem Content-Management-System ist die optimale Lösung für Unternehmen mit hoher Online-Konkurrenz, wie Handwerker, Anwälte oder Zahnärzte, die ihre Online-Präsenz maximieren möchten.</p>
+                                    <p>Mit 5 Seiten und einem integriertem Content-Management-System ist die Unternehmenswebsite eine optimale Lösung für Unternehmen mit hoher Online-Konkurrenz, wie Handwerker, Anwälte oder Zahnärzte, die ihre Online-Präsenz maximieren möchten.</p>
                                 </div>
 
                                 <div className={styles.link}>
@@ -94,7 +94,7 @@ export default function dienstleistungen() {
                             <div className={styles.content}>
                                 <div className={styles.txt}>
                                     <h3>Zu wem passt das Angebot?</h3>
-                                    <p>Die One-Page Website ist ideal für kleine lokale Unternehmen, die einen schnellen und ansprechenden Online-Auftritt benötigen. Sie eignet sich besonders für Friseursalons, Cafés, lokale Handwerker und andere kleinere Betriebe, die ihre Dienstleistungen und Produkte präsentieren möchten. <br /> <br /> Durch ihre Einfachheit und Direktheit ermöglicht sie es diesen Unternehmen, potenzielle Kunden anzusprechen und ihre Bekanntheit in der lokalen Gemeinschaft zu steigern.</p>
+                                    <p>Die One-Page Website ist ideal für kleine lokale Unternehmen, die einen schnellen und ansprechenden Online-Auftritt benötigen. Sie eignet sich besonders für Friseursalons, Cafés, Bars und anderen kleinen Betrieben, die ihre Dienstleistungen und Produkte präsentieren möchten. <br /> <br /> Durch ihre Einfachheit und Direktheit ermöglicht sie es diesen Unternehmen, potenzielle Kunden anzusprechen und ihre Bekanntheit in der lokalen Gemeinschaft zu steigern.</p>
                                 </div>
 
                                 <div className={styles.list}>
@@ -112,7 +112,7 @@ export default function dienstleistungen() {
                             </div>
 
                             <div className={styles.link}>
-                                <BlueButton href="/kontakt" black><span>Lass uns <u>loslegen</u></span></BlueButton>
+                                <BlueButton href="/kontakt" black><span>Lassen Sie uns <u>loslegen</u></span></BlueButton>
                             </div>
                         </div>
 
@@ -164,7 +164,7 @@ export default function dienstleistungen() {
                             </div>
 
                             <div className={styles.link}>
-                                <BlueButton href="/kontakt" black><span>Lass uns <u>loslegen</u></span></BlueButton>
+                                <BlueButton href="/kontakt" black><span>Lassen Sie uns <u>loslegen</u></span></BlueButton>
                             </div>
                         </div>
 
@@ -204,7 +204,7 @@ export default function dienstleistungen() {
                                 <div className={styles.list}>
                                     <h3>Das ist enthalten:</h3>
                                     <ul>
-                                    <li><Image src="/images/check.svg" width={36} height={36} /> Branding</li>
+                                        <li><Image src="/images/check.svg" width={36} height={36} /> Branding</li>
                                         <li><Image src="/images/check.svg" width={36} height={36} /> Homepage + 2 Unterseiten</li>
                                         <li><Image src="/images/check.svg" width={36} height={36} /> Blog Funktion (zzgl. 250€)</li>
                                         <li><Image src="/images/check.svg" width={36} height={36} /> rechtliche Seiten & Kontaktseite inbegriffen</li>
@@ -217,7 +217,7 @@ export default function dienstleistungen() {
                             </div>
 
                             <div className={styles.link}>
-                                <BlueButton href="/kontakt" black><span>Lass uns <u>loslegen</u></span></BlueButton>
+                                <BlueButton href="/kontakt" black><span>Lassen Sie uns <u>loslegen</u></span></BlueButton>
                             </div>
                         </div>
 
@@ -243,7 +243,7 @@ export default function dienstleistungen() {
                         <div className={styles.prozess}>
                             <div className={styles.topSec}>
                                 <h2>Unsere Expertise</h2>
-                                <p>Mit fundierter Expertise beherrschen wir die Bereiche Branding, Webdesign und Webentwicklung, um maßgeschneiderte Lösungen für Ihr Unternehmen zu schaffen.</p>
+                                <p>So bringen wir Ihre Vision zur Realität.</p>
                             </div>
 
                             <div className={styles.main}>
