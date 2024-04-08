@@ -19,8 +19,8 @@ export default function Home(props) {
     return (
         <>
             <Head>
-                <title>Infinite Agency</title>
-                <meta name="description" content="Eine Website by Infinite Agency" />
+                <title>Webdesign Agentur für kleine Unternehmen - Wir erstellen Ihre Website - Infinite Agency</title>
+                <meta name="description" content="Entdecken Sie bei Infinite Agency maßgeschneiderte Webdesign-Lösungen, die kleinen Unternehmen dabei helfen, Ihre Ziele zu erreichen." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/images/Infinite-Logo-Icon.svg" />
             </Head>

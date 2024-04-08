@@ -11,8 +11,8 @@ export default function dienstleistungen() {
     return (
         <>
             <Head>
-                <title>Infinite Agency</title>
-                <meta name="description" content="Eine Website by Infinite Agency" />
+                <title>Unsere Dienstleistungen: Webdesign-Lösungen für Ihren Erfolg</title>
+                <meta name="description" content="Erfahren Sie, wie Infinite Agency kleinen Unternehmen hilft, online erfolgreich zu werden. Entdecken Sie unsere Dienstleistungen für Ihre digitale Präsenz." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/images/Infinite-Logo-Icon.svg" />
             </Head>

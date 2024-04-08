@@ -11,8 +11,8 @@ export default function blog(props) {
 
     return <>
         <Head>
-            <title>Unser Blog über Online Marketing | Infinite Agency</title>
-            <meta name="description" content="Entdecken Sie die Welt des Online-Marketings mit Infinite Agency. Wertvolle Einblicke, Tipps und Trends für Ihren digitalen Erfolg. Jetzt lesen!" />
+            <title>Unser Blog über Webdesign | Infinite Agency</title>
+            <meta name="description" content="Entdecken Sie die Welt des Online-Marketings mit Infinite Agency. Wertvolle Einblicke, Tipps und Trends für Ihren digitalen Erfolg." />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <link rel="icon" href="/images/Infinite-Logo-Icon.svg" />
         </Head>

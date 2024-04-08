@@ -738,6 +738,10 @@
     .blackBox .topSec h2 {
         font-size: 30px;
     }
+
+    .prozess .box {
+        padding: 20px 30px;
+    }
 }
 
 @media screen and (max-width: 1450px) {
