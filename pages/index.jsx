@@ -65,7 +65,7 @@ export default function Home(props) {
                         <div className={styles.expertise}>
                             <div className={styles.topSec}>
                                 <h2>Unsere Expertise</h2>
-                                <p>Mit fundierter Expertise beherrschen wir die Bereiche Branding, Webdesign und Webentwicklung, um maßgeschneiderte Lösungen für Ihr Unternehmen zu schaffen.</p>
+                                <p>Wir sind Ihr Partner für Branding, Webdesign und Webentwicklung und bieten Ihnen professionelle Unterstützung für Ihren digitalen Erfolg.</p>
                             </div>
 
                             <div className={styles.main}>
@@ -84,7 +84,7 @@ export default function Home(props) {
                                         <div className={styles.upside}>
                                             <div><div className={styles.underline}>Webdesign</div></div>
                                             <hr />
-                                            <p>Wir konzentrieren uns auf benutzerzentriertes Design und intuitive Navigation, um Websites zu erstellen, die beeindrucken und Ergebnisse liefern. Wir bringen Ihre Online-Präsenz auf ein neues Niveau und helfen Ihnen, sich von der Konkurrenz abzuheben.</p>
+                                            <p>Wir gestalten Websites, die nicht nur ästhetisch ansprechend sind, sondern auch Ihre geschäftlichen Ziele unterstützen. Durch benutzerzentriertes Design und eine nahtlose Nutzererfahrung helfen wir Ihnen, Ihre Online-Präsenz zu optimieren und potenzielle Kunden zu überzeugen.</p>
                                         </div>
 
                                         <div className={styles.img} style={{ backgroundImage: "url('/images/Expertise-Webdesign.png')" }}></div>
@@ -94,7 +94,7 @@ export default function Home(props) {
                                         <div className={styles.upside}>
                                             <h3>Web- <br /> Entwicklung</h3>
                                             <hr />
-                                            <p>Wir bieten maßgeschneiderte Lösungen, die auf Ihre spezifischen Anforderungen zugeschnitten sind. Wir nutzen die neuesten Technologien, wie <Link href="https://webflow.com/" target='_blank'>Webflow</Link>, um robuste und leistungsstarke Websites zu entwickeln, die Ihren Geschäftszielen entsprechen.</p>
+                                            <p>Von der Konzeption bis zur Umsetzung setzen wir auf maßgeschneiderte Lösungen, die auf Ihre spezifischen Anforderungen zugeschnitten sind. Wir nutzen die neuesten Technologien, wie <Link href="https://webflow.com/" target='_blank'>Webflow</Link>, um robuste und leistungsstarke Websites zu entwickeln, die Ihren Geschäftszielen entsprechen.</p>
                                         </div>
 
                                         <div className={styles.img} style={{ backgroundImage: "url('/images/Expertise-Webdev.jpg')" }}></div>
@@ -239,7 +239,7 @@ export default function Home(props) {
                         <div className={styles.prozess}>
                             <div className={styles.topSec}>
                                 <h2>So gehen wir vor</h2>
-                                <p>Mit fundierter Expertise beherrschen wir die Bereiche Branding, Webdesign und Webentwicklung, um maßgeschneiderte Lösungen für Ihr Unternehmen zu schaffen.</p>
+                                <p>So bringen wir Ihre Vision zur Realität.</p>
                             </div>
 
                             <div className={styles.main}>
