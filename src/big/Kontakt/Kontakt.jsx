@@ -11,7 +11,7 @@ const Kontakt = () => {
             </div>
 
             <div className={styles.txt}>
-                <h2>Lass uns Dein Projekt besprechen</h2>
+                <h2>Lassen Sie uns Ihr Projekt besprechen</h2>
 
                 <ContactForm />
             </div>

@@ -11,8 +11,8 @@ export default function index(props) {
     return (
         <>
             <Head>
-                <title>Infinite Agency</title>
-                <meta name="description" content="Eine Website by Infinite Agency" />
+                <title>Unsere Portfolio: Sehen Sie sich die Projekte von Infinite Agency an</title>
+                <meta name="description" content="Entdecken Sie unser beeindruckendes Portfolio bei Infinite Agency. Wir bringen die Visionen kleiner Unternehmen online zum Leben." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/images/Infinite-Logo-Icon.svg" />
             </Head >

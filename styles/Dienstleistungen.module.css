@@ -499,6 +499,10 @@
         width: 28px;
         height: auto;
     }
+
+    .prozess .box {
+        padding: 20px 30px;
+    }
 }
 
 @media screen and (max-width: 1450px) {
