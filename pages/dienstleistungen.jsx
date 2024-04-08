@@ -205,7 +205,7 @@ export default function dienstleistungen() {
                                     <h3>Das ist enthalten:</h3>
                                     <ul>
                                         <li><Image src="/images/check.svg" width={36} height={36} /> Branding</li>
-                                        <li><Image src="/images/check.svg" width={36} height={36} /> Homepage + 2 Unterseiten</li>
+                                        <li><Image src="/images/check.svg" width={36} height={36} /> Homepage + 4 Unterseiten</li>
                                         <li><Image src="/images/check.svg" width={36} height={36} /> Blog Funktion (zzgl. 250€)</li>
                                         <li><Image src="/images/check.svg" width={36} height={36} /> rechtliche Seiten & Kontaktseite inbegriffen</li>
                                         <li><Image src="/images/check.svg" width={36} height={36} /> <span>Figma Design & <b><u>Webflow Entwicklung</u></b></span></li>
