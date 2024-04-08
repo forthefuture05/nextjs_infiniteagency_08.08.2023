@@ -98,7 +98,7 @@ export default function dienstleistungen() {
                                 </div>
 
                                 <div className={styles.list}>
-                                    <h3>Das ist enthalten?</h3>
+                                    <h3>Das ist enthalten:</h3>
                                     <ul>
 
                                         <li><Image src="/images/check.svg" width={36} height={36} /> eine Landingpage/Homepage</li>
@@ -150,7 +150,7 @@ export default function dienstleistungen() {
                                 </div>
 
                                 <div className={styles.list}>
-                                    <h3>Das ist enthalten?</h3>
+                                    <h3>Das ist enthalten:</h3>
                                     <ul>
                                         <li><Image src="/images/check.svg" width={36} height={36} /> Branding</li>
                                         <li><Image src="/images/check.svg" width={36} height={36} /> Homepage + 2 Unterseiten</li>
@@ -202,7 +202,7 @@ export default function dienstleistungen() {
                                 </div>
 
                                 <div className={styles.list}>
-                                    <h3>Das ist enthalten?</h3>
+                                    <h3>Das ist enthalten:</h3>
                                     <ul>
                                     <li><Image src="/images/check.svg" width={36} height={36} /> Branding</li>
                                         <li><Image src="/images/check.svg" width={36} height={36} /> Homepage + 2 Unterseiten</li>
