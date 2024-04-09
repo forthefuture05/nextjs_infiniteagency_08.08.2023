@@ -21,6 +21,18 @@ export default function App({ Component, pageProps }) {
       <meta property="og:url" content="https://infiniteagency.de" />
       <meta property="og:site_name" content="Infinite Agency" />
 
+      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11377149020"></script>
+      <script>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+  
+          gtag('config', 'AW-11377149020');
+        `}
+      </script>
+
+
       {/* Infinite Agency */}
 
       {cookieC === "accepted" ? <>

@@ -23,6 +23,16 @@ export default function Home(props) {
                 <meta name="description" content="Entdecken Sie bei Infinite Agency maßgeschneiderte Webdesign-Lösungen, die kleinen Unternehmen dabei helfen, Ihre Ziele zu erreichen." />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
                 <link rel="icon" href="/images/Infinite-Logo-Icon.svg" />
+
+
+                <script>
+                    {`gtag('event', 'conversion', {
+                        'send_to': 'AW-11377149020/dWVeCKuF5p8ZENyIhrEq',
+                    'value': 1.0,
+                    'currency': 'EUR'
+                    });`}
+                </script>
+
             </Head>
 
             <Main>
