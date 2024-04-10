@@ -52,7 +52,7 @@ export default function Home(props) {
 
                             <div className={styles.linksOuter}>
                                 <div className={styles.links}>
-                                    <div><BlueButton href="/kontakt">Lerne uns kennen</BlueButton></div>
+                                    <div><BlueButton href="/kontakt">Kontakt aufnehmen</BlueButton></div>
                                     <Link href="/dienstleistungen" className={styles.services}>Unsere Services</Link>
                                 </div>
                             </div>
@@ -236,7 +236,7 @@ export default function Home(props) {
                     </div>
 
                     <div className={styles.links}>
-                        <BlueButton href="/kontakt">Lerne uns kennen</BlueButton>
+                        <BlueButton href="/kontakt">Kontakt aufnehmen</BlueButton>
                         <Link href="/dienstleistungen" className={styles.services}>Unsere Services</Link>
                     </div>
                 </div>
@@ -291,7 +291,7 @@ export default function Home(props) {
                             </div>
 
                             <div className={styles.links}>
-                                <BlueButton href="/kontakt">Lerne uns kennen</BlueButton>
+                                <BlueButton href="/kontakt">Kontakt aufnehmen</BlueButton>
                                 <Link href="/dienstleistungen" className={styles.services}>Unsere Services</Link>
                             </div>
                         </div>
