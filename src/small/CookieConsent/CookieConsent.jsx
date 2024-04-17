@@ -26,7 +26,7 @@ const CookieConsent = (props) => {
         <>
             {accCookies === false && <div className={styles.cookie}>
                 <h3>Cookies</h3>
-                <p>Durch die weitere Nutzung der Seite stimmst du der Verwendung von Cookies zu. <a href="/datenschutz">Weitere Informationen</a></p>
+                <p>Durch die weitere Nutzung der Seite stimmen Sie der Verwendung von Cookies zu. <a href="/datenschutz">Weitere Informationen</a></p>
                 <div><div className={styles.button} onClick={closeCookies}>Akzeptieren</div></div>
             </div>}
         </>
